@@ -119,7 +119,7 @@ font-size:1.5rem ;
   margin-top: 2rem;
    }
 
-.grid__container__3nosotros{
+.grid__container__2nosotros{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,7 +188,7 @@ font-size:1.5rem ;
 
 .portada__textoGaleria{
 padding: 2rem;
-margin-left: 20%;
+margin-left: 30%;
 }
 
 .texto__galeria{
@@ -196,7 +196,7 @@ margin-left: 20%;
 }
 
 
-.grid__container__2galeria{
+.grid__container__1galeria{
   display:grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 15rem 15rem 15rem 15rem;
