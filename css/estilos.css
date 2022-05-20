@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body{
@@ -74,6 +74,7 @@ p{
   margin-left: 6%;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .btn{
@@ -103,7 +104,7 @@ p{
   text-align: center;
 }
 .grid__texto{
-font-size:1.5rem ;
+  font-size:1.5rem ;
 }
 
 .grid__container__1nosotros{
@@ -130,7 +131,6 @@ font-size:1.5rem ;
    
 }
 
-      
 .grid__uno{
   grid-row-start: 1;
   grid-row-end: 3;
@@ -187,8 +187,8 @@ font-size:1.5rem ;
 /*galeria.................................................................................*/
 
 .portada__textoGaleria{
-padding: 2rem;
-margin-left: 30%;
+  padding: 2rem;
+  margin-left: 30%;
 }
 
 .texto__galeria{
@@ -207,7 +207,7 @@ margin-left: 30%;
   gap: 1rem;
   margin-left: 10rem;
   margin-right: 10rem;
-   
+ 
   }
 
 .grid__seis{
@@ -345,9 +345,10 @@ margin-left:18% ;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap; 
-  padding: 2.5rem;
+  padding: 1rem;
   text-align: center;
-  }
+  margin-right: 7rem;
+}
 
 .footer__redes__uno{
   width: 15rem;
@@ -366,6 +367,7 @@ margin-left:18% ;
 /*............................................................................................*/  
 
 @media (min-width:541px) and (max-width:720px){
+  
   body {                                                                         
     background-color: rgba(99, 61, 36, 0.795);
     margin: 1rem;
@@ -410,7 +412,7 @@ margin-left:18% ;
     font-size:2rem;
      }  
 
-  .portada__btn{
+  .btn{
     font-size: 2rem;
     padding: 1rem;
      }  
@@ -424,7 +426,8 @@ margin-left:18% ;
     justify-content: space-between;   
     padding: 2.5rem;
     text-align: center;
-    margin-top: 1.5rem;                                                                                                                       ;
+    margin-top: 1.5rem; 
+    margin-right: 3rem;                                                                                                                      ;
       }
 
   .footer__redes__uno{
@@ -458,10 +461,14 @@ margin-left:18% ;
  
 /* galeria...........................................................................................*/
 
-.portada__textoGaleria{
-    font-size:0.2rem;
-    margin-left: 0.01rem;
-          }
+  .portada__textoGaleria{
+    padding:1rem;
+    margin-left: 1rem;
+      }
+
+ .texto__galeria{
+     font-size: 3rem;
+     }
 
   .grid__container__1galeria{
     display:grid;
@@ -551,17 +558,19 @@ margin-left:18% ;
     font-size:1.3rem;
        }  
 
-  .portada__btn{
-    margin-top: 0.25rem;
-    margin-left: 1%;
-    font-size: 0.5rem;
-    padding: 0.25rem;
+  .btn{
+    margin-top: 0.10rem;
+    margin-bottom: 0.5rem;
+    margin-left: 30%;
+    font-size: 2rem;
+    padding: 0.10rem;
       }   
 /*footer............................................................................*/
 
   .footer{
     padding: 0.5rem;
-    margin-left: 0.5rem;                                                                                                                       ;
+    margin-left: 0.5rem;
+    margin-right: 2rem                                                                                                                       ;
        }
 
   .footer__redes__uno{
@@ -615,9 +624,13 @@ margin-left:18% ;
 /*galeria...................................................................................*/      
 
   .portada__textoGaleria{
-    font-size:0.5rem;
-    margin-left: 0.010rem;
-          }
+      padding:1rem;
+      margin-left: 2.5rem;
+        }
+
+  .texto__galeria{
+          font-size: 2rem;
+       }     
 
   .grid__container__1galeria{
     display:grid;
@@ -658,7 +671,7 @@ margin-left:18% ;
   .contacto__imagenes__uno{
     width: 60vw;
     height: 15vh;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-top: 2rem;
         }
     }  
