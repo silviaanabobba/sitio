@@ -1,0 +1,144 @@
+  .portada__textoGaleria{
+    padding: 2rem;
+    margin-left: 30%;
+     .texto__galeria{
+      font-size: 3rem;
+      }
+    }
+
+  .grid__container__1galeria{
+    display:grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+    grid-template-areas:"uno dos tres" 
+                          "uno cuatro cinco"
+                          "seis cuatro ocho"
+                          "seis cuatro ocho";
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+  
+    .grid__seis{
+        grid-area: uno;
+        background-image: url("../recursos/Edificio 3.jpg");
+         background-position: inherit;
+         background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__siete{
+        grid-area: dos;
+        background-image: url("../recursos/Edificio 1.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__ocho{
+        grid-area: tres;
+        background-image: url("../recursos/Edificio 2.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__nueve{
+        grid-area: cuatro;
+        background-image: url("../recursos/Edificio 5.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__diez{
+        grid-area: cinco;
+        background-image: url("../recursos/Edificio 4.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__once{
+        grid-area: seis;
+        background-image: url("../recursos/Edificio 6.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid__doce{
+        grid-area: seis;
+        background-image: url("../recursos/Edificio 7.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+    
+    .grid__trece{
+        grid-area: ocho;
+        background-image: url("../recursos/Edificio 8.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+   }
+
+@media (min-width:541px) and (max-width:720px){ 
+  
+  .portada__textoGaleria{
+    padding:1rem;
+    margin-left: 1rem;
+
+    .texto__galeria{
+      font-size: 3rem;
+      margin-left: 3rem;
+      }
+    }
+ 
+  .grid__container__1galeria{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+    border: 0.1rem solid rgb(15, 1, 15);
+    grid-template-areas: "uno dos"
+                             "tres cuatro"
+                             "cinco seis"
+                             "ocho seis";
+    gap: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    } 
+  }
+
+ @media (min-width:320px) and (max-width:540px){   
+   
+    
+  .portada__textoGaleria{
+    padding:1rem;
+    margin-left: 2.5rem;
+
+    .texto__galeria {
+      font-size: 1.5rem;
+      margin-left: 2.5rem;
+      }     
+    }
+  
+    
+  .grid__container__1galeria{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem 15rem;
+    grid-template-areas: "uno" 
+                         "dos"
+                         "tres"
+                         "cuatro"
+                         "cinco"
+                         "seis"
+                         "ocho";
+    gap: 0.5rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    }  
+      
+  }

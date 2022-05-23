@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    flex-wrap: wrap; /* responsive*/
+    justify-content: center;
+    justify-content: space-between; /* espaciado entre palabras*/
+    padding: 1rem; /* espaciado con otro contenido*/
+      &__logo {
+       width: 15vw;
+       height: 10vh; 
+       }
+    }
+
+@media (min-width:320px) and (max-width:540px){   
+ 
+  .header{
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+      &__logo{
+        width: 30vw;
+        height: 7vh; 
+      }
+   }
+}   

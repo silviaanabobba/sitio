@@ -1,0 +1,58 @@
+ .container__actitud{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+    .container__texto1{
+      font-size: 1.50rem;
+      color:white;
+      }
+    }
+   
+  .portada__textoActitud{
+    margin-left:18%;
+    padding-right: 2rem;
+    padding-top: 2rem;
+
+    .texto__actitud {
+       margin-left: 5%;
+       font-size: 2.5rem;
+       color:white;
+       }
+
+    .ul___actitud{
+        font-size:2rem ;
+        color: white;
+        } 
+     }
+
+@media (min-width:541px) and (max-width:720px){  
+
+  .portada__textoActitud{
+      margin-left: 1rem;
+        .texto__actitud{
+          font-size: 2rem;
+          } 
+        .ul___actitud{
+          font-size:1.75rem ;
+          }    
+      }
+   }
+
+ @media (min-width:320px) and (max-width:540px){   
+   
+  .portada__textoActitud{
+    margin-left: 1rem;
+      .texto__actitud{
+        font-size: 2rem;
+        }
+      .ul___actitud{
+          font-size:1.75rem ;
+          }     
+      }
+
+  }
+
+
+  
+  
+ 

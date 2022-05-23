@@ -1,0 +1,68 @@
+  .contacto{
+    display: flex;
+    flex-direction: column; /* por defecto row (horizontal)*/
+    flex-wrap: wrap; /* convierte en responsive*/
+        
+    .contacto__texto{
+        display:flex;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+        }
+    }
+
+  .contacto__imagenes__uno{
+      margin-left: 15rem;
+      margin-top: 2rem;
+      width:60rem; 
+      height:40rem;
+      }
+  
+  .imput{
+    display: flex;
+    flex-direction: column; /* por defecto row (horizontal)*/
+    flex-wrap: wrap; /*responsive*/
+    font-size: 1.5rem; 
+    padding: 1rem;
+    margin-left:30% ;
+    margin-top: 0.25rem;
+
+    .contacto__imput{
+      margin:1rem ;
+      color:white;  
+      }
+    }
+
+@media (min-width:541px) and (max-width:720px){
+
+  .contacto__imagenes__uno{
+    width: 60vw;
+    height: 20vh;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    }
+
+  .imput{
+    margin-left:10% ;
+    margin-top: 0.25rem;
+    }
+  }
+
+@media (min-width:320px) and (max-width:540px){   
+ 
+  .contacto__imagenes__uno{
+    width: 60vw;
+    height: 20vh;
+    margin-left: 4rem;
+    margin-top: 2rem;
+      }
+
+  .imput{
+    margin-left:10% ;
+    margin-top: 0.25rem;
+   }
+
+  }     
+    
+   
+     

@@ -1,0 +1,187 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'nosotros';
+@import 'galeria';
+@import 'actitud';
+@import 'contacto';
+
+
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    }
+  
+  body{
+    margin: 1rem; /* borde a la pantalla*/
+    background-color: $color-body;
+    font-family: $font-family-body;
+    
+    
+    h1{
+      font-size: $font-size-h1;
+      color: $color-h1;              
+      }
+  
+    nav{
+      background-color: $color-navegacion;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding:0.2rem;
+      .ul__navegador {
+        display:flex;
+        justify-content: space-around; 
+        list-style:none;
+        font-size: $font-size-navegador;
+        }
+      }
+    
+    li{
+     list-style:none;
+      a{
+        text-decoration: none;
+        &:hover {
+          color:aqua;
+          }     
+       }   
+     }
+
+    main{
+      padding: 1rem;
+      }
+ 
+    p{
+      color:$color-p;
+      font-size:$font-size-p      
+      }
+
+    .p__link{
+      font-size: $font-size-link;
+      }
+  
+    .portada__textoIndex{
+      display: flex;
+      flex-direction: column;
+      margin-left: 6%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      }
+  
+    .btn{
+      background-color: white;
+      font-size: 2.5rem;
+      padding: 1rem;
+      margin-left:40%;
+      border-radius: 1rem;
+      border: 0.25rem solid rgb(167, 15, 141);
+      &:hover {  
+        transform: scale(1.25);
+        background-color:rgb(19, 32, 17);
+        }
+      }
+    } 
+
+ @media (min-width:541px) and (max-width:720px){
+    
+  body {                                                                         
+    background-color: $color-tablet;
+    margin: 1rem;
+  
+      
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+      &__logo{
+        width: 30vw;
+        height: 7vh; 
+        
+      }
+    }
+
+  h1{
+    margin-left: 1rem;
+    margin-left: 1rem;
+    font-size: 2.7rem;
+    }
+
+  nav{
+    background-color: white;
+    padding: 0.5rem;  
+      .ul__navegador{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        } 
+        .portada__textoIndex{
+          text-align: center;
+          padding: 1rem; 
+          } 
+    }  
+
+  p{
+    font-size:2rem;
+    }  
+      
+  .btn{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left: 30%;
+      &:hover {  
+        transform: scale(1.25);
+        background-color:rgb(19, 32, 17);
+      }  
+    }
+
+   }  
+ }
+ 
+
+@media (min-width:320px) and (max-width:540px){   
+      
+  body {                                                                         
+    background-color: $color-celular;
+    margin: 0.5rem;
+    
+  h1{
+    font-size: 2rem;
+    }
+      
+  nav{
+    text-align: center;
+    margin-left: 10rem; 
+    margin-right: 10rem;
+    .ul__navegador{
+        flex-direction: column;
+        font-size: 1.25rem;
+        padding: 0.01rem;
+        }      
+    }
+
+ .portada__textoIndex{
+    text-align: center;
+    padding: 1rem; 
+    } 
+        
+ p{
+    font-size:1.3rem;
+    }  
+        
+ .btn{
+    margin-top: 0.10rem;
+    margin-bottom: 0.5rem;
+    margin-left: 35%;
+    font-size: 2rem;
+    padding: 0.10rem;
+      &:hover {  
+      transform: scale(1.25);
+      background-color:rgb(19, 32, 17);
+      }  
+    } 
+  }
+
+ }
+   
+ 
