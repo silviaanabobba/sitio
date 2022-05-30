@@ -199,55 +199,58 @@
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 15rem 15rem 15rem 15rem;
-  grid-template-areas: "uno dos tres"  "uno cuatro cinco" "seis cuatro ocho" "seis cuatro ocho";
+  grid-template-areas: "uno dos tres" 
+ "uno cuatro cinco"
+ "seis cuatro ocho"
+ "seis cuatro ocho";
   gap: 1rem;
   margin-left: 10rem;
   margin-right: 10rem; }
   .grid__container__1galeria .grid__seis {
     grid-area: uno;
-    background-image: url("../recursos/Edificio 3.jpg");
+    background-image: url("../recursos/edificio__3.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__siete {
     grid-area: dos;
-    background-image: url("../recursos/Edificio 1.jpg");
+    background-image: url("../recursos/edificio__4.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__ocho {
     grid-area: tres;
-    background-image: url("../recursos/Edificio 2.jpg");
+    background-image: url("../recursos/edificio__5.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__nueve {
     grid-area: cuatro;
-    background-image: url("../recursos/Edificio 5.jpg");
+    background-image: url("../recursos/edificio__6.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__diez {
     grid-area: cinco;
-    background-image: url("../recursos/Edificio 4.jpg");
+    background-image: url("../recursos/edificio__7.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__once {
     grid-area: seis;
-    background-image: url("../recursos/Edificio 6.jpg");
+    background-image: url("../recursos/edificio__8.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__doce {
     grid-area: seis;
-    background-image: url("../recursos/Edificio 7.jpg");
+    background-image: url("../recursos/edificio__9.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
   .grid__container__1galeria .grid__trece {
     grid-area: ocho;
-    background-image: url("../recursos/Edificio 8.jpg");
+    background-image: url("../recursos/edificio__10.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -264,7 +267,10 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15rem 15rem 15rem 15rem;
     border: 0.1rem solid #0f010f;
-    grid-template-areas: "uno dos" "tres cuatro" "cinco seis" "ocho seis";
+    grid-template-areas: "uno dos"
+ "tres cuatro"
+ "cinco seis"
+ "ocho seis";
     gap: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem; } }
@@ -280,7 +286,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem 15rem;
-    grid-template-areas: "uno"  "dos" "tres" "cuatro" "cinco" "seis" "ocho";
+    grid-template-areas: "uno" 
+ "dos"
+ "tres"
+ "cuatro"
+ "cinco"
+ "seis"
+ "ocho";
     gap: 0.5rem;
     margin-left: 3rem;
     margin-right: 2rem; } }
@@ -322,21 +334,69 @@
 
 .contacto {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* por defecto row (horizontal)*/
   flex-wrap: wrap;
-  /* convierte en responsive*/ }
-  .contacto .contacto__texto {
-    display: flex;
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem; }
-
-.contacto__imagenes__uno {
-  margin-left: 15rem;
   margin-top: 2rem;
-  width: 60rem;
-  height: 40rem; }
+  margin-bottom: 2rem;
+  /* convierte en responsive*/ }
+
+  .contacto__imagen {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 35rem;
+    height: 25rem;
+    background-color: azure;
+    border-radius: 5rem;
+    padding: 2rem;
+    margin-left: 5.5rem;
+    }
+  
+    .key1-contacto {  
+      background-image: url("..recursos/contacto/contacto__1.jpg");
+      background-color: rgb(72, 73, 72);
+      width: 30rem;
+      height: 20rem;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 5rem;
+      padding:1rem;
+            }
+    .key2-contacto {
+      background-image: url("..recursos/contacto/contacto__2.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 30rem;
+      height: 20rem;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 5rem;
+      padding:1rem;
+      }
+    .key3-contacto {
+      background-image: url("..recursos/contacto/contacto__5.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 30rem;
+      height: 20rem;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 5rem;
+      padding:1rem;
+      }
+    .key4-contacto {
+      background-image: url("..recursos/contacto/contacto__6.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 30rem;
+      height: 20rem;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 5rem;
+      padding:1rem;
+      }
+    
+    .contacto__texto {
+      display: flex;
+      font-size: 2rem;
+      text-align: center;
+      padding: 1rem;
+      margin-left: 10rem;
+      margin-right: 10rem; }
 
 .imput {
   display: flex;
@@ -353,21 +413,134 @@
     color: white; }
 
 @media (min-width: 541px) and (max-width: 720px) {
-  .contacto__imagenes__uno {
-    width: 60vw;
+
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    }
+
+  .contacto__imagen {
+    width: 50vw;
     height: 20vh;
-    margin-left: 5rem;
-    margin-top: 2rem; }
+    border-radius: 1.5rem ;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 7rem;
+    }
+
+    .key1-contacto {  
+      background-image: url("..recursos/contacto/contacto__1.jpg");
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.05rem solid #1a1d1b;
+      border-radius:1.5rem;
+        }
+    .key2-contacto {
+      background-image: url("..recursos/contacto/contacto__2.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+       }
+    .key3-contacto {
+      background-image: url("..recursos/contacto/contacto__5.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+        }
+    .key4-contacto {
+      background-image: url("..recursos/contacto/contacto__6.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+        }
+
+    .contacto__texto {
+      display: flex;
+      font-size: 0.50rem;
+      text-align: center;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+
   .imput {
     margin-left: 10%;
-    margin-top: 0.25rem; } }
+    margin-top: 0.25rem; } 
+  }
 
 @media (min-width: 320px) and (max-width: 540px) {
-  .contacto__imagenes__uno {
-    width: 60vw;
-    height: 20vh;
-    margin-left: 4rem;
-    margin-top: 2rem; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    }
+
+    .contacto__imagen {
+      width: 50vw;
+      height: 20vh;
+      border-radius: 1.5rem ;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 6rem;
+      }
+
+    .key1-contacto {  
+      background-image: url("..recursos/contacto/contacto__1.jpg");
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.05rem solid #1a1d1b;
+      border-radius:1.5rem;
+      padding: 0.5rem;
+        }
+    .key2-contacto {
+      background-image: url("..recursos/contacto/contacto__2.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+      padding: 0.5rem;
+       }
+    .key3-contacto {
+      background-image: url("..recursos/contacto/contacto__5.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+      padding:0.5rem;
+      }
+    .key4-contacto {
+      background-image: url("..recursos/contacto/contacto__6.jpg"); 
+      background-color: rgb(72, 73, 72);
+      width: 40vw;
+      height: 15vh;
+      border: 0.5rem solid #1a1d1b;
+      border-radius: 1.5rem;
+      padding:0.5rem;
+      }
+
+    .contacto__texto {
+      display: flex;
+      font-size: 0.50rem;
+      text-align: center;
+      padding: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem; }
+
   .imput {
     margin-left: 10%;
     margin-top: 0.25rem; } }
@@ -416,10 +589,12 @@ body {
     text-align: center; }
   body .btn {
     background-color: white;
+    width: 15rem;
+    height: 7.5rem;
     font-size: 2.5rem;
     padding: 1rem;
     margin-left: 40%;
-    border-radius: 1rem;
+    border-radius: 5rem;
     border: 0.25rem solid #a70f8d; }
     body .btn:hover {
       transform: scale(1.25);
@@ -480,9 +655,12 @@ body {
     body p {
       font-size: 1.3rem; }
     body .btn {
+      width: 10rem;
+      height: 5rem;
       margin-top: 0.10rem;
       margin-bottom: 0.5rem;
-      margin-left: 35%;
+      margin-left: 30%;
+      margin-right: 30%;
       font-size: 2rem;
       padding: 0.10rem; }
       body .btn:hover {

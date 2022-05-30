@@ -1,4 +1,5 @@
 @import 'variables';
+@import'sasscript'; 
 @import 'header';
 @import 'footer';
 @import 'nosotros';
@@ -6,12 +7,10 @@
 @import 'actitud';
 @import 'contacto';
 
-
-
-  *{
-    margin: 0px;
+  
+ * {  margin: 0px;
     padding: 0px;
-    }
+   }  
   
   body{
     margin: 1rem; /* borde a la pantalla*/
@@ -71,10 +70,12 @@
   
     .btn{
       background-color: white;
+      width: $ancho;
+      height: $alto;
       font-size: 2.5rem;
       padding: 1rem;
       margin-left:40%;
-      border-radius: 1rem;
+      border-radius: 5rem;
       border: 0.25rem solid rgb(167, 15, 141);
       &:hover {  
         transform: scale(1.25);
@@ -170,18 +171,20 @@
     }  
         
  .btn{
+    width: $ancho/1.5;
+    height: $alto/1.5;
     margin-top: 0.10rem;
     margin-bottom: 0.5rem;
-    margin-left: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-size: 2rem;
     padding: 0.10rem;
       &:hover {  
       transform: scale(1.25);
       background-color:rgb(19, 32, 17);
-      }  
-    } 
+       }  
+     } 
+   }
   }
-
- }
-   
  
+   
