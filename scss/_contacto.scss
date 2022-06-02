@@ -1,80 +1,52 @@
   .contacto{
     display: flex;
-    flex-direction: column; /* por defecto row (horizontal)*/
-    flex-wrap: wrap; /* convierte en responsive*/
+    flex-direction: row;
+    padding: 2rem;
+    margin-left: 3rem;
 
-    &__imagen{ 
-      display: flex;
-      flex-direction: row;
-      gap: 5rem;
-      border-radius: 1.5rem ;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      margin-left: 7rem;
-        } 
+    &__imagen{
+      gap:5rem;  }
 
-      /*.key1-contacto{
-         background-image: url('..recursos/contacto/contacto__1.jpg');
-         background-color: rgb(72, 73, 72);
-         width: 30rem;
-         height: 20rem;
-         border: 0.5rem solid #1a1d1b;
-         border-radius: 5rem;
-         padding:1rem;
-         }
+     .key1-contacto {
+       border:solid #272e29 ;
+       margin-left: 25rem; }
+    
+     .key2-contacto {
+       border: solid #272e29;
+       margin-left: 25rem;}
+    
+     .key3-contacto {
+       border: solid #272e29;
+       margin-left: 25rem; }
+    
+     .key4-contacto {
+       border: solid  #272e29;
+       margin-left: 25rem; }
 
-      .key2-contacto {
-         background-image: url('..recursos/contacto/contacto__2.jpg');
-         background-color: rgb(72, 73, 72);
-         width: 30rem;
-         height: 20rem;
-         border: 0.5rem solid #1a1d1b;
-         border-radius: 5rem;
-         padding:1rem;
-         } 
-           
-      .key3-contacto {
-          background-image: url('..recursos/contacto/contacto__5.jpg');
-          background-color: rgb(72, 73, 72);
-          width: 30rem;
-          height: 20rem;
-          border: 0.5rem solid #1a1d1b;
-          border-radius: 5rem;
-          padding:1rem;
-          }
-
-      .key4-contacto {
-          background-image: url('..recursos/contacto/contacto__46jpg');
-          background-color: rgb(72, 73, 72);
-          width: 30rem;
-          height: 20rem;
-          border: 0.5rem solid #1a1d1b;
-          border-radius: 5rem;
-          padding:1rem;
-          }*/
-        
+             
      &__texto{
         display:flex;
         font-size: 2rem;
         text-align: center;
         padding: 1rem;
-        margin-left: 10rem;
-        margin-right: 10rem;
+       
         }
-      }
+     }
+      
 
       
    .imput{
     display: flex;
-    flex-direction: column; /* por defecto row (horizontal)*/
-    flex-wrap: wrap; /*responsive*/
-    font-size: 1.5rem; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    font-size: 1.5rem;  
     padding: 1rem;
-    margin-left:30% ;
+    margin-left:20rem;
+    margin-right: 10rem;
     margin-top: 0.25rem;
 
     .contacto__imput{
-      margin:1rem ;
+      padding: 0.50rem;
       color:white;  
       }
     }
@@ -83,68 +55,58 @@
 
   .contacto {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin-top: 1rem;
     margin-bottom: 1rem;
-      }
-    &imagen {
-      width: 50vw;
-      height: 20vh;
-      border-radius: 1.5rem ;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      margin-left: 7rem;
-      }
+    margin-left: 0.05rem;
 
-    /*.key1-contacto {  
-      background-image: url("..recursos/contacto/contacto__1.jpg");
-      background-color: rgb(72, 73, 72);
-      width: 40vw;
-      height: 15vh;
-      border: 0.05rem solid #1a1d1b;
+     &__imagen{
+       flex-direction: row; 
+      flex-wrap: wrap; 
+      gap:2rem;
+      align-content: center;
+      margin-left: 0.05rem;
+    }
+    .key1-contacto {  
+      width: 15rem;
+      height: 10rem;
+      border: solid #1a1d1b;
       border-radius:1.5rem;
-      padding: 0.5rem;
-        }
+      margin-left: 0.05rem ;
+         }
     .key2-contacto {
-      background-image: url("..recursos/contacto/contacto__2.jpg"); 
-      background-color: rgb(72, 73, 72);
-      width: 40vw;
-      height: 15vh;
-      border: 0.5rem solid #1a1d1b;
+      width: 15rem;
+      height: 10rem;
+      border: solid #1a1d1b;
       border-radius: 1.5rem;
-      padding: 0.5rem;
+      margin-left: 0.05rem;
        }
     .key3-contacto {
-      background-image: url("..recursos/contacto/contacto__5.jpg"); 
-      background-color: rgb(72, 73, 72);
-      width: 40vw;
-      height: 15vh;
-      border: 0.5rem solid #1a1d1b;
+      width: 15rem;
+      height: 10rem;
+      border: solid #1a1d1b;
       border-radius: 1.5rem;
-      padding: 0.5rem;
+      margin-left: 0.05rem;
         }
     .key4-contacto {
-      background-image: url("..recursos/contacto/contacto__6.jpg"); 
-      background-color: rgb(72, 73, 72);
-      width: 40vw;
-      height: 15vh;
-      border: 0.5rem solid #1a1d1b;
+      width: 15rem;
+      height: 10rem;
+      border: solid #1a1d1b;
       border-radius: 1.5rem;
-      padding: 0.5rem;
-        }*/
+      margin-left: 0.05rem;
+        }
 
-    .contacto__texto {
+     &__texto {
       display: flex;
       font-size: 0.50rem;
       text-align: center;
       padding: 1rem;
-      margin-left: 1rem;
+      margin-left: 0.05rem;
       margin-right: 1rem; }
    }
-
+   }
   .imput{
-    margin-left:10% ;
+    margin-left:20% ;
     margin-top: 0.25rem;
     }
   
@@ -152,54 +114,42 @@
 @media (min-width:320px) and (max-width:540px){   
  
   .contacto{ 
-    width: 35vw;
-    height: 215vh;
-    margin-top: 2rem;
-      }
-
-      &__imagen {
-        width: 50vw;
-        height: 20vh;
-        border-radius: 1.5rem ;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        margin-left: 6rem;
-        }
-  
-      /*.key1-contacto {  
-        background-image: url("..recursos/contacto/contacto__1.jpg");
-        background-color: rgb(72, 73, 72);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+      
+      &__imagen{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        gap:2rem;
+      }  
+      .key1-contacto {  
         width: 40vw;
         height: 15vh;
         border: 0.05rem solid #1a1d1b;
         border-radius:1.5rem;
           }
       .key2-contacto {
-        background-image: url("..recursos/contacto/contacto__2.jpg"); 
-        background-color: rgb(72, 73, 72);
         width: 40vw;
         height: 15vh;
         border: 0.5rem solid #1a1d1b;
         border-radius: 1.5rem;
          }
       .key3-contacto {
-        background-image: url("..recursos/contacto/contacto__5.jpg"); 
-        background-color: rgb(72, 73, 72);
         width: 40vw;
         height: 15vh;
         border: 0.5rem solid #1a1d1b;
         border-radius: 1.5rem;
-        padding:1rem;
-        }
+         }
       .key4-contacto {
-        background-image: url("..recursos/contacto/contacto__6.jpg"); 
-        background-color: rgb(72, 73, 72);
         width: 40vw;
         height: 15vh;
         border: 0.5rem solid #1a1d1b;
         border-radius: 1.5rem;
-        padding:1rem;
-        }*/
+          }
   
       .contacto__texto {
         display: flex;
@@ -208,6 +158,8 @@
         padding: 1rem;
         margin-left: 1rem;
         margin-right: 1rem; }
+
+     }
    
   .imput{
     margin-left:10% ;
