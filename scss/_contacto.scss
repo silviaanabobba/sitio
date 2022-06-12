@@ -1,232 +1,365 @@
+.contactoTituloh2{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+ }
+
+.grid__container__contacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 15rem 15rem 5rem;
+  gap: 8rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-content: center;
+  align-content: center;
+  background-position: center;
+  margin-top: 0.5rem;
+  padding: 5rem; }
+
+.grid__container__contacto .grid__uno {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url("../recursos/contacto/contacto__1.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid #272e29; }
+
+.grid__container__contacto .grid__uno__texto {
+      grid-row: 1/2;
+      grid-column: 2/3;
+      background-position: inherit;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: solid #272e29; }
+
+.grid__container__contacto .grid__dos {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        background-image: url("../recursos/contacto/contacto__2.jpg");
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid #272e29; }
+
+.grid__container__contacto .grid__tres {
+          grid-row: 2/3;
+          grid-column: 2/3;
+          background-image: url("../recursos/contacto/contacto__5.jpg");
+          background-position: inherit;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border: solid #272e29; }   
+
+.grid__container__contacto .grid__dos__texto {
+          grid-row: 3/4;
+          grid-column: 1/2;
+         background-position: inherit;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border: solid #272e29; }
   
-    .grid__container__1contacto{
-      display:grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 15rem 15rem;
-      gap: 8rem;
-      margin-left: 10rem;
-      margin-right: 10rem;
+  
+.grid__container__contacto .grid__tres__texto {
+      grid-row: 3/4;
+      grid-column: 2/3;
+      background-position: inherit;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border: solid #272e29; }
+
+.contactoTexto {
+  display: flex;
+  font-size: 2rem;
+  padding-left:1rem;
+  text-align: center;
+  padding-left: 6rem; }
+
+.grid__container__contacto1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25rem;
+    gap: 1rem;
+    margin-left: 25rem;
+    margin-right: 10rem;
+    justify-content: center;
+    align-content: center;
+    background-position: center;
+    padding: 2rem; }
+.grid__container__contacto1 .grid__uno__uno {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      background-position: inherit;
+      background-size: cover;
+      background-repeat: no-repeat;
+       }
+.grid__container__contacto1 .grid__dos .imput {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+         }
+.grid__container__contacto1 .grid__uno__uno {
+          grid-row: 1/2;
+          grid-column: 2/3;
+          background-position: inherit;
+          background-size: cover;
+          background-repeat: no-repeat;
+           }       
+  
+.imput {
+  background-color:rgb(73, 73, 73);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 30rem;
+  height: 20rem;
+  text-align: center;
+  margin-left: 10rem;
+  margin-top: 0.25rem; }
+  .imput .contacto__imput {
+    padding: 0.50rem;
+    color: white; }
+
+
+
+@media (min-width: 541px) and (max-width: 720px) {
+  .contactoTituloh2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+   }
+  
+  .grid__container__contacto {
+        grid-template-columns: 50% 50%;
+    grid-template-rows: 15rem 15rem 5rem;
+    gap: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 2rem; }
+  
+  .grid__container__contacto .grid__uno {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      width: 15rem;
+      height:15rem ;
+      background-image: url("../recursos/contacto/contacto__1.jpg");
+      
+        }
+  
+  .grid__container__contacto .grid__uno__texto {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        border: solid #272e29; }
+
+  
+  .grid__container__contacto .grid__dos {
+          grid-row: 2/3;
+          grid-column: 1/2;
+          width: 15rem;
+          height:15rem ;
+          background-image: url("../recursos/contacto/contacto__2.jpg");
+          border: solid #272e29; }
+
+  .grid__container__contacto .grid__tres {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            width: 15rem;
+            height:15rem ;
+            background-image: url("../recursos/contacto/contacto__5.jpg");
+            border: solid #272e29; }         
+
+   .grid__container__contacto .grid__dos__texto {
+            grid-row: 3/4;
+            grid-column: 1/2;
+           border: solid #272e29; }
+         
+   
+  
+    .grid__container__contacto .grid__tres__texto {
+        grid-row: 3/4;
+        grid-column: 2/3;
+        border: solid #272e29; }
+  
+      
+   
+  .grid__texto{
+    font-size: 1.5rem;
+  }
+  
+  .contactoTexto {
+    display: flex;
+    font-size: 2rem;
+    padding-left:0.5em;
+    text-align: center;
+      }
+    
+  .grid__container__contacto1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 25rem;
+      gap: 1rem;
+      margin-left: 6rem;
+      margin-right: 8rem;
       justify-content: center;
       align-content: center;
       background-position: center;
-      padding: 6rem;
-        
-     
-    .grid__catorce {
-      grid-row: 1/2;
-      grid-column:1/2;
-      background-image:url("../recursos/contacto/contacto__1.jpg") ;;
-      background-position: inherit;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border:solid #272e29 ;
-       }
-
-   .grid__quince  {
-    grid-row: 1/2;
-    grid-column: 2/3;
-      background-image:url("../recursos/contacto/contacto__2.jpg") ;;
-      background-position: inherit;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border:solid #272e29 ;
-       }
-     
-    .grid__dieciseis {
-      grid-row: 2/3;
-      grid-column: 1/2;
-      background-image:url("../recursos/contacto/contacto__5.jpg") ;;
-      background-position: inherit;
-      background-size: cover;
-      background-repeat: no-repeat;  
-      border:solid #272e29 ;
-       }
-
-    .grid__diecisiete  {
-      grid-row: 2/3;
-      grid-column: 2/3;
-       background-image:url("../recursos/contacto/contacto__6.jpg") ;;
-       background-position: inherit;
-       background-size: cover;
-       background-repeat: no-repeat; 
-       border:solid #272e29 ;
+      padding: 2rem; }
+  .grid__container__contacto1 .grid__uno__uno {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
          }
-       } 
-     
-
-     .contacto__texto{
-        display:flex;
-        font-size: 2rem;
-        text-align: center;
-        padding: 6rem;
-       
-        }
-     
-     
-
-      
-   .imput{
+  .grid__container__contacto1 .grid__dos .imput {
+          grid-row: 1/2;
+          grid-column: 2/3;
+          background-position: inherit;
+          background-size: cover;
+          background-repeat: no-repeat;
+           }
+  .grid__container__contacto1 .grid__uno__uno {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            background-position: inherit;
+            background-size: cover;
+            background-repeat: no-repeat;
+             }       
+    
+  
+  
+  .imput {
+    background-color:rgb(73, 73, 73);
     display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap; 
-    font-size: 2rem;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2rem;
     padding: 1rem;
-    margin-left:30rem;
-    margin-right: 10rem;
-    margin-top: 0.25rem;
-
-    .contacto__imput{
+    width: 30rem;
+    height: 20rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 0.25rem; }
+    .imput .contacto__imput {
       padding: 0.50rem;
-      color:white;  
-      }
-    }
+      color: white; }
 
-@media (min-width:541px) and (max-width:720px){
+  }
 
-  grid__container__1contacto{
-    display: flex;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem;
-    gap: 1rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    justify-content: center;
-    align-content: center;
-    background-position: center;
-    padding: 1rem;
-      
-   
-  .grid__catorce {
-    grid-row: 1/2;
-    grid-column:1/2;
-    background-image:url("../recursos/contacto/contacto__1.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:solid #272e29 ;
-     }
-
- .grid__quince  {
-  grid-row: 1/2;
-  grid-column: 2/3;
-    background-image:url("../recursos/contacto/contacto__2.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:solid #272e29 ;
-     }
-   
-  .grid__dieciseis {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    background-image:url("../recursos/contacto/contacto__5.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    border:solid #272e29 ;
-     }
-
-  .grid__diecisiete  {
-    grid-row: 2/3;
-    grid-column: 2/3;
-     background-image:url("../recursos/contacto/contacto__6.jpg") ;;
-     background-position: inherit;
-     background-size: cover;
-     background-repeat: no-repeat; 
-     border:solid #272e29 ;
-       }
-     } 
-    }
-     .contacto__texto {
-      display: flex;
-      font-size: 0.20rem;
-      text-align: center;
-      padding: 1rem;
-      margin-left: 0.1rem;
-       }
-   
-   
-  .imput{
-    margin-left:20% ;
-    margin-top: 0.10rem;
-    
-    }
+@media (min-width: 320px) and (max-width: 540px) {
   
-
-@media (min-width:320px) and (max-width:540px){   
- 
-  grid__container__1contacto{
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem;
-    gap: 0.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    justify-content: center;
-    align-content: center;
-    background-position: center;
-    padding: 1rem;
-      
-   
-  .grid__catorce {
-    grid-row: 1/2;
-    grid-column:1/2;
-    background-image:url("../recursos/contacto/contacto__1.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:solid #272e29 ;
-     }
-
- .grid__quince  {
-  grid-row: 1/2;
-  grid-column: 2/3;
-    background-image:url("../recursos/contacto/contacto__2.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border:solid #272e29 ;
-     }
-   
-  .grid__dieciseis {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    background-image:url("../recursos/contacto/contacto__5.jpg") ;;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    border:solid #272e29 ;
-     }
-
-  .grid__diecisiete  {
-    grid-row: 2/3;
-    grid-column: 2/3;
-     background-image:url("../recursos/contacto/contacto__6.jpg") ;;
-     background-position: inherit;
-     background-size: cover;
-     background-repeat: no-repeat; 
-     border:solid #272e29 ;
-       }
-     } 
-  
-      .contacto__texto {
-        display: flex;
-        font-size: 0.50rem;
-        text-align: center;
-        padding: 1rem;
-        margin-left: 0.10rem;
-        margin-right: 0.10rem; }
-
-     }
-   
-  .imput{
-    font-size: 1.5rem;
-    margin-left:10% ;
-    margin-top: 0.05rem;
+  .contactoTituloh2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
    }
+  
+  .grid__container__contacto {
+        grid-template-columns: 100%;
+    grid-template-rows: 20rem 10rem 20rem 5rem 20rem 5rem;
+    gap: 0.5rem;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem; }
+  
+  .grid__container__contacto .grid__uno {
+      grid-row: 1/2;
+      grid-column: 1/1;
+      width: 20rem;
+      height:20rem ;
+      background-image: url("../recursos/contacto/contacto__1.jpg");
+      
+        }
+  
+   .grid__container__contacto .grid__uno__texto {
+        grid-row: 2/3;
+        grid-column:1/1;
+        border: solid #272e29; }
 
+  
+  .grid__container__contacto .grid__dos {
+          grid-row: 3/4;
+          grid-column: 1/1;
+          width: 20rem;
+          height:20rem ;
+          background-image: url("../recursos/contacto/contacto__2.jpg");
+          border: solid #272e29; }
+
+  .grid__container__contacto .grid__dos__texto {
+            grid-row: 4/5;
+            grid-column: 1/1;
+           border: solid #272e29; }
+  
+  .grid__container__contacto .grid__tres {
+            grid-row: 5/6;
+            grid-column: 1/1;
+            width: 20rem;
+            height:20rem ;
+            background-image: url("../recursos/contacto/contacto__5.jpg");
+            border: solid #272e29; }         
+
+  .grid__container__contacto .grid__dos__texto {
+            grid-row: 6/7; 
+            grid-column: 1/1;
+           border: solid #272e29; }
+  
+      
+  .grid__texto{
+    font-size: 1.5rem;
+  }
+  
+  .contactoTexto {
+    display: flex;
+    font-size: 1.5rem;
+    padding-left:0.5em;
+    text-align: center;
+      }
     
-    
-   
-     
+  .grid__container__contacto1 {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 25rem;
+      margin-left: 0.1rem;
+      margin-right: 0.1rem;
+      padding: 1rem; 
+      padding-bottom: 1rem;
+    }
+
+  .grid__container__contacto1 .grid__uno__uno {
+        grid-row: 1/2;
+        grid-column: 1/1
+                 }
+  .grid__container__contacto1 .grid__dos .imput {
+          grid-row: 2/3;
+          grid-column: 1/1
+                    }
+  .grid__container__contacto1 .grid__uno__uno {
+            grid-row: 3/4;
+            grid-column: 1/1;
+                         }       
+  
+  .imput {
+    background-color:#304438;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 20rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-bottom: 1rem;
+      }
+    .imput .contacto__imput {
+      padding: 0.50rem;
+      color: white; 
+      width: 10rem;
+      }
+ }
+

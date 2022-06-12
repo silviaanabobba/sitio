@@ -8,183 +8,171 @@
 @import 'contacto';
 
   
- * {  margin: 0px;
-    padding: 0px;
-   }  
-  
-  body{
-    margin: 1rem; /* borde a la pantalla*/
-    background-color: $color-body;
-    font-family: $font-family-body;
-    
-    
-    h1{
-      font-size: $font-size-h1;
-      color: $color-h1;              
-      }
-  
-    nav{
-      background-color: $color-navegacion;
-      margin-left: 1rem;
-      margin-right: 1rem;
-      padding:0.2rem;
-      .ul__navegador {
-        display:flex;
-        justify-content: space-around; 
-        list-style:none;
-        font-size: $font-size-navegador;
-        }
-      }
-    
-    li{
-     list-style:none;
-      a{
-        text-decoration: none;
-        &:hover {
-          color:aqua;
-          }     
-       }   
-     }
-
-    main{
-      padding: 1rem;
-      }
- 
-    p{
-      color:$color-p;
-      font-size:$font-size-p      
-      }
-
-    .p__link{
-      font-size: $font-size-link;
-      }
-  
-    .portada__textoIndex{
-      display: flex;
-      flex-direction: column;
-      margin-left: 6%;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      text-align: center;
-      }
-  
-    .btn{
-      background-color: white;
-      width: $ancho;
-      height: $alto;
-      font-size: 2.5rem;
-      padding: 1rem;
-      margin-left:40%;
-      border-radius: 5rem;
-      border: 0.25rem solid rgb(167, 15, 141);
-      &:hover {  
-        transform: scale(1.25);
-        background-color:rgb(19, 32, 17);
-        }
-      }
-    } 
-
- @media (min-width:541px) and (max-width:720px){
-    
-  body {                                                                         
-    background-color: $color-tablet;
-    margin: 1rem;
-  
-      
-  .header{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-      &__logo{
-        width: 30vw;
-        height: 7vh; 
-        
-      }
-    }
-
-  h1{
-    margin-left: 1rem;
-    margin-left: 1rem;
-    font-size: 2.7rem;
-    }
-
-  nav{
-    background-color: white;
-    padding: 0.5rem;  
-      .ul__navegador{
-        display: flex;
-        justify-content: space-between;
-        font-size: 1.5rem;
-        } 
-        .portada__textoIndex{
-          text-align: center;
-          padding: 1rem; 
-          } 
-    }  
-
-  p{
-    font-size:2rem;
-    }  
-      
-  .btn{
-    font-size: 2rem;
-    padding: 1rem;
-    margin-left: 30%;
-      &:hover {  
-        transform: scale(1.25);
-        background-color:rgb(19, 32, 17);
-      }  
-    }
-
-   }  
- }
- 
-
-@media (min-width:320px) and (max-width:540px){   
-      
-  body {                                                                         
-    background-color: $color-celular;
-    margin: 0.5rem;
-    
-  h1{
-    font-size: 2rem;
-    }
-      
-  nav{
-    text-align: center;
-    margin-left: 10rem; 
-    margin-right: 10rem;
-    .ul__navegador{
-        flex-direction: column;
-        font-size: 1.25rem;
-        padding: 0.01rem;
-        }      
-    }
-
- .portada__textoIndex{
-    text-align: center;
-    padding: 1rem; 
-    } 
-        
- p{
-    font-size:1.3rem;
-    }  
-        
- .btn{
-    width: $ancho/1.5;
-    height: $alto/1.5;
-    margin-top: 0.10rem;
-    margin-bottom: 0.5rem;
-    margin-left: 30%;
-    margin-right: 30%;
-    font-size: 2rem;
-    padding: 0.10rem;
-      &:hover {  
-      transform: scale(1.25);
-      background-color:rgb(19, 32, 17);
-       }  
-     } 
-   }
+* {
+  margin: 0px;
+  padding: 0px; 
   }
- 
+          
+body {
+  margin: 1rem;
+  background-color: #304438;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+h1 {
+  font-size: 3rem;
+  color: white; 
+  }
+  
+h2 {
+  font-size: 2rem;
+  color: white; 
+  }
+  
+p {
+  font-size: 1.5rem; 
+  color: white;
+  }
+ /*index*/
+
+  .indexTituloh2{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+     }
    
+   .container-fluid{
+    width:80rem ;
+    height:50rem ;
+     }
+  
+  .indexTexto{
+    display: flex;
+    flex-direction:row ;
+    gap: 2rem;
+    margin-top: 0rem;;
+    margin-left:3rem ;
+    margin-right: 1rem ;
+    margin-bottom: 1rem;
+   
+    }
+  .linkContactoTexto{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 18rem;
+    }
+  
+  .btn{
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    margin-left:35rem;
+     }
+  
+  .btn:hover {  
+    transform: scale(1.25);
+    background-color:rgb(28, 128, 94);
+    }
+  
+  .boton{
+    color: black;
+    }
+  
+  @media (min-width: 541px) and (max-width: 720px) {
+      
+      .indexTituloh2{
+        font-size:1.5rem ;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+         }
+       
+       .container-fluid{
+        width:35rem ;
+        height:10rem ;
+        margin-left: 1rem;
+        margin-right: 2rem;
+         }
+      
+      .indexTexto{
+        display: flex;
+        flex-direction:row ;
+        gap: 2rem;
+        margin-left:3rem ;
+        margin-right: 1rem ;
+        margin-bottom: 1rem;
+        margin-top: 5rem;
+         }
+
+      .linkContactoTexto{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        margin-left: 1rem;
+        text-align: center;
+      }
+      
+      .btn{
+        background-color: white;
+        font-size: 2rem;
+        padding: 0.75rem;
+        border-radius: 1.5rem;
+        margin-left:13rem;
+         }
+      
+      .btn:hover {  
+        transform: scale(1.25);
+        background-color:aquamarine;
+        }
+      
+      .boton{
+        color: black;
+        }
+     } 
+  
+  
+  @media (min-width: 320px) and (max-width: 540px) {
+      
+      .indexTituloh2{
+        font-size:1.5rem ;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+         }
+       
+       .container-fluid{
+        width:25rem ;
+        height:10rem ;
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+         }
+      
+      .indexTexto{
+        display: flex;
+        flex-direction:row ;
+        gap: 2rem;
+        margin-left:1rem ;
+        margin-right: 1rem ;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+       
+        }
+      .linkContactoTexto{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        margin-left: 1rem;
+        text-align: center;
+      }
+      
+      .btn{
+         margin-left:8rem;
+         }
+   
+    } 
+  
+  
