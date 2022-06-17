@@ -30,6 +30,7 @@
 }
 
 .btn{
+  background-color: white;
   width: $ancho/2;
   height:$alto/2 ;
   color:black;
@@ -130,20 +131,42 @@
      }
 
   .indexTexto__p{
-    font-size:1.25rem ;
+    font-size:1rem ;
      }  
 
   .linkContactoIndex{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     margin-left: 1rem;
     text-align: center;
     }
-
-  .btn{
-    margin-left:8rem ;
-     } 
+    
+    .btn{
+      background-color: white;
+      width: $ancho/2.5;
+      height:$alto/2.5 ;
+      color:black;
+      font-size: 1.5rem;
+      padding: 0.75rem;
+      border-radius:10rem;
+      margin-left:8rem;
+      margin-right: 15rem ;
+      margin-bottom: 3rem;
+        &:hover {  
+        transform: scale(1.20);
+        background-color:rgb(29, 41, 37);
+        padding:1rem ;
+         }
+        } 
+    
+    .btn__texto{
+      color:black;
+        &:hover{
+        color:wheat
+        }
+       }
+      
     
   } 
 

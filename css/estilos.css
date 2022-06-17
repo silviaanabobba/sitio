@@ -205,6 +205,10 @@ span a:hover {
   grid-row: 1/2;
   grid-column: 2/3; }
 
+.imagen {
+  width: 40rem;
+  height: 25rem; }
+
 .linkContactoActitud {
   padding-bottom: 2rem;
   margin-left: 20rem; }
@@ -274,12 +278,11 @@ span a:hover {
   .actitud__texto {
     font-size: 1.25rem; }
   .container__actitud3 {
-    background-color: black;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25rem 20rem;
+    grid-template-rows: 25rem 23rem;
     gap: 1rem;
-    padding-top: 2rem;
+    padding-top: 1em;
     margin-left: 1rem;
     margin-right: 1rem; }
   .grid__container__actitud3 .grid__item.grid__dos {
@@ -293,6 +296,9 @@ span a:hover {
   .grid__container__actitud3 .grid__item .grid__uno {
     grid-row: 1/2;
     grid-column: 1/1; }
+  .imagen {
+    width: 35rem;
+    height: 25rem; }
   .linkContactoActitud {
     font-size: 1.5rem;
     text-align: center;
@@ -335,6 +341,7 @@ span a:hover {
     justify-content: center;
     align-content: center;
     background-position: center;
+    text-align: justify;
     padding-bottom: 0.10rem;
     margin-left: 1rem;
     margin-right: 1rem; }
@@ -360,7 +367,7 @@ span a:hover {
   .container__actitud3 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25rem 25rem;
+    grid-template-rows: 15rem 20rem;
     gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 0.10rem;
@@ -375,17 +382,21 @@ span a:hover {
   .grid__container__actitud3 .grid__item.grid__dos {
     grid-row: 2/3;
     grid-column: 1/1; }
+  .imagen {
+    width: 22rem;
+    height: 15rem; }
   .linkContactoActitud {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
+    margin-top: 1rem;
     padding-bottom: 2rem;
     margin-left: 1rem; }
   .btn__actitud {
     background-color: white;
-    width: 10rem;
-    height: 5rem;
+    width: 8rem;
+    height: 4rem;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.75rem;
     border-radius: 10rem;
     margin-left: 8rem;
@@ -507,6 +518,7 @@ span a:hover {
   .grid__container__contacto {
     grid-template-columns: 50% 50%;
     grid-template-rows: 15rem 15rem 2rem;
+    justify-content: center;
     gap: 1rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -547,6 +559,8 @@ span a:hover {
     grid-row: 3/4;
     grid-column: 2/3;
     border: solid #272e29; }
+  .texto {
+    font-size: 1rem; }
   .contactoTexto {
     display: flex;
     font-size: 1.25rem;
@@ -593,11 +607,17 @@ span a:hover {
     padding-left: 1rem;
     width: 20rem;
     height: 20rem;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("../recursos/contacto/contacto__1.jpg"); }
   .grid__container__contacto .grid__uno__texto {
     grid-row: 2/3;
     grid-column: 1/1;
     width: 20rem;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid #272e29; }
   .grid__container__contacto .grid__dos {
     grid-row: 3/4;
@@ -605,6 +625,9 @@ span a:hover {
     width: 20rem;
     height: 20rem;
     background-image: url("../recursos/contacto/contacto__2.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid #272e29; }
   .grid__container__contacto .grid__tres {
     grid-row: 4/5;
@@ -612,18 +635,29 @@ span a:hover {
     width: 20rem;
     height: 20rem;
     background-image: url("../recursos/contacto/contacto__5.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid #272e29; }
   .grid__container__contacto .grid__dos__texto {
     grid-row: 5/6;
     grid-column: 1/1;
     width: 20rem;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid #272e29; }
   .grid__container__contacto .grid__tres__texto {
     grid-row: 6/7;
     grid-column: 1/1;
     width: 20rem;
     font-size: 0.5rem;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: solid #272e29; }
+  .texto {
+    font-size: 1rem; }
   .contactoTexto {
     font-size: 1.1rem;
     text-align: center;
@@ -675,6 +709,7 @@ span a:hover {
   margin-left: 18rem; }
 
 .btn {
+  background-color: white;
   width: 10rem;
   height: 5rem;
   color: black;
@@ -748,15 +783,32 @@ span a:hover {
     margin-bottom: 1rem;
     margin-top: 2rem; }
   .indexTexto__p {
-    font-size: 1.25rem; }
+    font-size: 1rem; }
   .linkContactoIndex {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
     margin-left: 1rem;
     text-align: center; }
   .btn {
-    margin-left: 8rem; } }
+    background-color: white;
+    width: 8rem;
+    height: 4rem;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    border-radius: 10rem;
+    margin-left: 8rem;
+    margin-right: 15rem;
+    margin-bottom: 3rem; }
+    .btn:hover {
+      transform: scale(1.2);
+      background-color: #1d2925;
+      padding: 1rem; }
+  .btn__texto {
+    color: black; }
+    .btn__texto:hover {
+      color: wheat; } }
 
 .nosotrosTituloh2 {
   text-align: center;
@@ -936,7 +988,7 @@ span a:hover {
 .grid__texto {
       font-size: 1.5rem;
       color: #faf3f3; }
-  .grid__texto1 {
+  .texto1 {
     font-size: 1.5rem; }
   .grid__container__nosotros2 {
     display: grid;
@@ -969,9 +1021,9 @@ span a:hover {
     margin-right: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem; }
-  .grid__texto {
+  .texto {
     font-size: 1rem; }
-  .grid__texto1 {
+  .texto1 {
     font-size: 1rem;
     text-align: justify; }
   .nosotrosTituloh3 {
@@ -1032,7 +1084,24 @@ span a:hover {
     margin-left: 0.75rem;
     text-align: center; }
   .btn__nosotros {
-    margin-left: 8rem; } }
+    background-color: white;
+    width: 8rem;
+    height: 4rem;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    border-radius: 10rem;
+    margin-left: 8rem;
+    margin-right: 15rem;
+    margin-bottom: 3rem; }
+    .btn__nosotros:hover {
+      transform: scale(1.2);
+      background-color: #1d2925;
+      padding: 1rem; }
+  .btn__nosotros__texto {
+    color: black; }
+    .btn__nosotros__texto:hover {
+      color: wheat; } }
 
 .galeriaTituloh2 {
   padding: 2rem;
@@ -1188,10 +1257,10 @@ span a:hover {
     text-align: center; }
   .btn__galeria {
     background-color: white;
-    width: 10rem;
-    height: 5rem;
+    width: 8rem;
+    height: 4rem;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.75rem;
     border-radius: 10rem;
     margin-left: 8rem;
@@ -1204,7 +1273,7 @@ span a:hover {
   .btn__galeria__texto {
     color: black; }
     .btn__galeria__texto:hover {
-      color: wheat; } }
+      color: white; } }
 
 * {
   margin: 0px;

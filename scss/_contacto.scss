@@ -117,6 +117,7 @@
   .grid__container__contacto {
         grid-template-columns: 50% 50%;
     grid-template-rows: 15rem 15rem 2rem;
+    justify-content: center;
     gap: 1rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -171,7 +172,9 @@
         grid-column: 2/3;
         border: solid #272e29; }
 
-  
+  .texto{
+    font-size: 1rem;
+  }
   
        
     .contactoTexto {
@@ -234,6 +237,9 @@
       padding-left: 1rem;
       width: 20rem;
       height:20rem;
+      background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
       background-image: url("../recursos/contacto/contacto__1.jpg");
       
         }
@@ -242,6 +248,9 @@
         grid-row: 2/3;
         grid-column:1/1;
         width: 20rem;
+        background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
         border: solid #272e29; }
 
   
@@ -251,6 +260,9 @@
           width: 20rem;
           height:20rem ;
           background-image: url("../recursos/contacto/contacto__2.jpg");
+          background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
           border: solid #272e29; }
 
   .grid__container__contacto .grid__tres {
@@ -259,6 +271,9 @@
             width: 20rem;
             height:20rem ;
             background-image: url("../recursos/contacto/contacto__5.jpg");
+            background-position: inherit;
+            background-size: cover;
+            background-repeat: no-repeat;  
             border: solid #272e29; }         
 
 
@@ -266,6 +281,9 @@
             grid-row: 5/6;
             grid-column: 1/1;
             width: 20rem;
+            background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
            border: solid #272e29; }
   
   
@@ -275,10 +293,15 @@
             grid-column: 1/1;
             width: 20rem;
             font-size: 0.5rem;
+            background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
            border: solid #272e29; }
   
       
- 
+ .texto{
+  font-size: 1rem;
+ }
   
   .contactoTexto {
      font-size: 1.1rem;
