@@ -2,17 +2,19 @@
 @import 'sasscript'; 
 @import 'header';
 @import 'footer';
-@import 'nosotros';
-@import 'galeria';
+
 @import 'actitud';
 @import 'contacto';
-
+@import 'index';
+@import 'nosotros';
+@import 'galeria';
   
+
 * {
   margin: 0px;
   padding: 0px; 
   }
-          
+            
 body {
   margin: 1rem;
   background-color: #304438;
@@ -25,154 +27,25 @@ h1 {
   }
   
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white; 
   }
+
+h2 {
+  font-size: 2rem;
+  color: white; 
+   }  
+ 
+ h4{
+  font-size: 1.75rem;
+  color: white; 
+   }  
   
+
+
 p {
   font-size: 1.5rem; 
   color: white;
   }
- /*index*/
 
-  .indexTituloh2{
-    margin-left: 6rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-     }
-   
-   .container-fluid{
-    width:80rem ;
-    height:50rem ;
-     }
-  
-  .indexTexto{
-    display: flex;
-    flex-direction:row ;
-    gap: 2rem;
-    margin-top: 0rem;;
-    margin-left:3rem ;
-    margin-right: 1rem ;
-    margin-bottom: 1rem;
-   
-    }
-  .linkContactoTexto{
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    margin-left: 18rem;
-    }
-  
-  .btn{
-    background-color: white;
-    font-size: 2rem;
-    padding: 0.75rem;
-    border-radius: 1.5rem;
-    margin-left:35rem;
-     }
-  
-  .btn:hover {  
-    transform: scale(1.25);
-    background-color:rgb(28, 128, 94);
-    }
-  
-  .boton{
-    color: black;
-    }
-  
-  @media (min-width: 541px) and (max-width: 720px) {
-      
-      .indexTituloh2{
-        font-size:1.5rem ;
-        margin-left: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-         }
-       
-       .container-fluid{
-        width:35rem ;
-        height:10rem ;
-        margin-left: 1rem;
-        margin-right: 2rem;
-         }
-      
-      .indexTexto{
-        display: flex;
-        flex-direction:row ;
-        gap: 2rem;
-        margin-left:3rem ;
-        margin-right: 1rem ;
-        margin-bottom: 1rem;
-        margin-top: 5rem;
-         }
-
-      .linkContactoTexto{
-        font-size: 1.5rem;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-        margin-left: 1rem;
-        text-align: center;
-      }
-      
-      .btn{
-        background-color: white;
-        font-size: 2rem;
-        padding: 0.75rem;
-        border-radius: 1.5rem;
-        margin-left:13rem;
-         }
-      
-      .btn:hover {  
-        transform: scale(1.25);
-        background-color:aquamarine;
-        }
-      
-      .boton{
-        color: black;
-        }
-     } 
-  
-  
-  @media (min-width: 320px) and (max-width: 540px) {
-      
-      .indexTituloh2{
-        font-size:1.5rem ;
-        margin-left: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-         }
-       
-       .container-fluid{
-        width:25rem ;
-        height:10rem ;
-        margin-left: 0.5rem;
-        margin-right: 1rem;
-         }
-      
-      .indexTexto{
-        display: flex;
-        flex-direction:row ;
-        gap: 2rem;
-        margin-left:1rem ;
-        margin-right: 1rem ;
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-       
-        }
-      .linkContactoTexto{
-        font-size: 1.5rem;
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-        margin-left: 1rem;
-        text-align: center;
-      }
-      
-      .btn{
-         margin-left:8rem;
-         }
-   
-    } 
-  
   

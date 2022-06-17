@@ -2,9 +2,6 @@
   padding: 2rem;
   margin-left: 30%; }
 
- .portada__textoGaleria .texto__galeria {
-    font-size: 3rem; }
-
 .grid__container__galeria {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
@@ -15,67 +12,105 @@
  "seis cuatro ocho";
   gap: 1rem;
   margin-left: 5rem;
-  margin-right: 5rem; }
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  }
+
   .grid__container__galeria .grid__uno {
     grid-area: uno;
     background-image: url("../recursos/edificio__3.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__dos {
     grid-area: dos;
     background-image: url("../recursos/edificio__4.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__tres {
     grid-area: tres;
     background-image: url("../recursos/edificio__5.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__cuatro {
     grid-area: cuatro;
     background-image: url("../recursos/edificio__6.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__cinco {
     grid-area: cinco;
     background-image: url("../recursos/edificio__7.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__seis {
     grid-area: seis;
     background-image: url("../recursos/edificio__8.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__siete {
     grid-area: seis;
     background-image: url("../recursos/edificio__9.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
+
   .grid__container__galeria .grid__ocho {
     grid-area: ocho;
     background-image: url("../recursos/edificio__10.jpg");
     background-position: inherit;
     background-size: cover;
-
     background-repeat: no-repeat; }
 
-.linkContactoTexto {
-      padding-bottom: 2rem;
-      margin-left: 5rem;
-       }  
-.btn {
-      margin-left: 10rem; }
+.linkContactoGaleria {
+  padding-bottom: 2rem;
+  margin-left: 20rem;
+    }  
+
+.btn__galeria{
+  background-color:white;
+  width: $ancho/2;
+  height:$alto/2 ;
+  color:black;
+  font-size: 2rem;
+  padding: 0.75rem;
+  border-radius:10rem;
+  margin-left:40rem;
+  margin-right: 15rem ;
+  margin-bottom: 3rem;
+    &:hover {  
+    transform: scale(1.20);
+    background-color:rgb(29, 41, 37);
+    padding:1rem ;
+     }
+  } 
+            
+.btn__galeria__texto{
+  color:black;
+  &:hover{
+  color:wheat
+   }
+  }
+          
 
 
 @media (min-width: 541px) and (max-width: 720px) {
-    .grid__container__galeria {
+
+  .galeriaTituloh2{
+    padding: 1.5rem;
+    margin-left: 5rem; }
+    
+  .grid__container__galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15rem 15rem 15rem 15rem;
@@ -86,33 +121,97 @@
  "ocho seis";
     gap: 0.5rem;
     margin-left: 1rem;
-    margin-right: 1rem; } }
+    margin-right: 1rem; } 
+  
+  .linkContactoGaleria {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+    }  
+    
+  .btn__galeria{
+    background-color:white;
+    width: $ancho/2;
+    height:$alto/2 ;
+    color:black;
+    font-size: 2rem;
+    padding: 0.75rem;
+    border-radius:10rem;
+    margin-left:14rem;
+    margin-right: 15rem ;
+    margin-bottom: 3rem;
+      &:hover {  
+      transform: scale(1.20);
+      background-color:rgb(29, 41, 37);
+      padding:1rem ;
+      }
+    } 
+                
+  .btn__galeria__texto{
+    color:black;
+    &:hover{
+    color:wheat
+      }
+    }
+ 
+  }
 
 @media (min-width: 320px) and (max-width: 540px) {
+
   .galeriaTituloh2{
     font-size: 1.5rem;
     padding: 2rem;
-    margin-left: 2rem }
-  
+    margin-left: 1rem }
 
-    .grid__container__galeria {
+  .grid__texto{
+    font-size: 1.25rem;
+    }
+
+  .grid__container__galeria {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 15rem 15rem 15rem 15rem 15rem 15rem 15rem;
+    grid-template-rows: 20rem 20rem 20rem 20rem 20rem 20rem 20rem;
     grid-template-areas: "uno" 
- "dos"
- "tres"
- "cuatro"
- "cinco"
- "seis"
- "ocho";
+    "dos"
+    "tres"
+    "cuatro"
+    "cinco"
+    "seis"
+    "ocho";
     gap: 0.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-right: 2rem; } 
   
- .GaleriaLinkContactoTexto {
-      font-size: 1rem;
-      padding-bottom: 2rem;
-      margin-left: 2rem;
-       }   
+  .linkContactoGaleria {
+    font-size:1.25rem ;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+    }   
+  
+  .btn__galeria{
+    background-color:white;
+    width: $ancho/2;
+    height:$alto/2 ;
+    color:black;
+    font-size: 2rem;
+    padding: 0.75rem;
+    border-radius:10rem;
+    margin-left:8rem;
+    margin-right: 15rem ;
+    margin-bottom: 3rem;
+     &:hover {  
+      transform: scale(1.20);
+      background-color:rgb(29, 41, 37);
+      padding:1rem ;
+      }
+    } 
+                    
+  .btn__galeria__texto{
+    color:black;
+    &:hover{
+    color:wheat
+      }
+    }
+  
   }

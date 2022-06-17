@@ -7,135 +7,143 @@
  
  .container-fluid{
   width:80rem ;
-  height:50rem ;
+  height:35rem ;
    }
 
 .indexTexto{
   display: flex;
   flex-direction:row ;
-  gap: 2rem;
-  margin-top: 0rem;;
+  text-align:justify;
+  gap: 10rem;
+  margin-top: 1rem;;
   margin-left:3rem ;
-  margin-right: 1rem ;
+  margin-right: 3rem ;
   margin-bottom: 1rem;
- 
-  }
-.linkContactoTexto{
+   }
+
+
+.linkContactoIndex{
+  color:white ;
   padding-top: 1rem;
   padding-bottom: 2rem;
   margin-left: 18rem;
 }
 
 .btn{
-  background-color: white;
+  width: $ancho/2;
+  height:$alto/2 ;
+  color:black;
   font-size: 2rem;
   padding: 0.75rem;
-  border-radius: 1.5rem;
+  border-radius:10rem;
   margin-left:35rem;
+  margin-right: 15rem ;
+  margin-bottom: 3rem;
+    &:hover {  
+    transform: scale(1.20);
+    background-color:rgb(29, 41, 37);
+    padding:1rem ;
+     }
+    } 
+
+.btn__texto{
+  color:black;
+    &:hover{
+    color:wheat
+    }
    }
-
-.btn:hover {  
-  transform: scale(1.25);
-  background-color:rgb(28, 128, 94);
-  }
-
-.boton{
-  color: black;
-  }
+  
 
 @media (min-width: 541px) and (max-width: 720px) {
-    
-    .indexTituloh2{
-      font-size:1.5rem ;
-      margin-left: 1rem;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      text-align: center;
-       }
-     
-     .container-fluid{
-      width:35rem ;
-      height:10rem ;
-      margin-left: 1rem;
-      margin-right: 2rem;
-       }
-    
-    .indexTexto{
-      display: flex;
-      flex-direction:row ;
-      gap: 2rem;
-      margin-left:3rem ;
-      margin-right: 1rem ;
-      margin-bottom: 1rem;
-      margin-top: 5rem;
-     
-      }
-    .linkContactoTexto{
-      font-size: 1.5rem;
-      padding-top: 1rem;
-      padding-bottom: 2rem;
-      margin-left: 1rem;
-      text-align: center;
+   
+  .indexTituloh2{
+    font-size:1.5rem ;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
     }
+     
+  .container-fluid{
+    width:35rem ;
+    height:15rem ;
+    margin-left: 1rem;
+    margin-right: 1rem;
+     }
     
-    .btn{
-      background-color: white;
-      font-size: 2rem;
-      padding: 0.75rem;
-      border-radius: 1.5rem;
-      margin-left:13rem;
-       }
-    
-    .btn:hover {  
-      transform: scale(1.25);
-      background-color:aquamarine;
-      }
-    
-    .boton{
-      color: black;
-      }
- 
-  } 
+  .indexTexto{
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction:column ;
+    gap: 1rem;
+    margin-left:2rem ;
+    margin-right: 2rem ;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    }
+
+  .indexTexto__p{
+    font-size:$font-size-p ;
+  }
+
+  .linkContactoIndex{
+    color:white ;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1rem;
+    }
+
+  .btn{
+    margin-left:15rem ;
+    }
+     
+  }
 
 
 @media (min-width: 320px) and (max-width: 540px) {
     
-    .indexTituloh2{
-      font-size:1.5rem ;
-      margin-left: 1rem;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      text-align: center;
-       }
-     
-     .container-fluid{
-      width:25rem ;
-      height:10rem ;
-      margin-left: 0.5rem;
-      margin-right: 1rem;
-       }
-    
-    .indexTexto{
-      display: flex;
-      flex-direction:row ;
-      gap: 2rem;
-      margin-left:1rem ;
-      margin-right: 1rem ;
-      margin-bottom: 1rem;
-      margin-top: 2rem;
-     
-      }
-    .linkContactoTexto{
-      font-size: 1.5rem;
-      padding-top: 1rem;
-      padding-bottom: 2rem;
-      margin-left: 1rem;
-      text-align: center;
+  .indexTituloh2{
+    font-size:1.5rem ;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+     }
+
+  .container-fluid{
+    width: 25rem ;
+    height:10rem ;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
     }
     
-    .btn{
-       margin-left:8rem;
-       }
- 
+  .indexTexto{
+    display: flex;
+    flex-direction:column ;
+    font-size: 0.5rem;
+    gap: 2rem;
+    margin-left:1rem ;
+    margin-right: 1rem ;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+     }
+
+  .indexTexto__p{
+    font-size:1.25rem ;
+     }  
+
+  .linkContactoIndex{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    }
+
+  .btn{
+    margin-left:8rem ;
+     } 
+    
   } 
 

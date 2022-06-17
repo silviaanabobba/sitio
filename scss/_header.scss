@@ -7,33 +7,29 @@ header {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  
-  }
+   }
+
 .header{
   display: flex;
   flex-direction: row;
-  gap:2rem
-
-}
-      
-.headerLogo {
-  width: 15vw;
-  height: 10vh; 
-  } 
-
+  gap:1rem;
+  &__logo {
+    width: 15vw;
+    height: 10vh; 
+     } 
+   }
+ 
 nav{   
-  padding-top: 1.5rem;
+  padding-top: 0.75rem;
   }
 
-
-.navegadorIndex {
+.navegador {
   display: flex;
   flex-wrap: nowrap;
   justify-content:center;
-  margin-top: 0.5rem; 
-  }
+   }
   
-.navegadorIndex span a {
+.navegador span a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-weight: 1rem;
@@ -41,44 +37,55 @@ nav{
   border-left: 0.2rem solid white;
   padding-left: 1rem;
   padding-right: 1rem;
-  transition: all 0.5s ease;  
-  }
+   }
   
-.navegadorIndex span a:hover {
+.navegador span a:hover {
   padding: 0.5rem;
-  }
-
-li{
-  list-style:none;
   }
 
 a {
   text-decoration: none;
   }
- 
-@media (min-width: 541px) and (max-width: 720px) {
-  
-  
-    .headerLogo {
-      width: 30vw;
-      height: 6vh; }
-    
-    .navegadorIndex {
-      margin-left: 3rem;
-     }
-     }
- 
- @media (min-width: 320px) and (max-width: 540px) {
-      .tituloh1 {
-        font-size: 1.5rem; }
-      
-      .headerLogo {
-        width: 30vw;
-        height: 6vh; }
-      nav {
-        padding-top: 1.5rem; }
 
-      .navegadorIndex {
-        gap: 0.05rem;
-        margin-top: 0.5rem; }
-   }  
+@media (min-width: 541px) and (max-width: 720px) {
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    &__logo {
+      width: 30vw;
+      height: 5vh; 
+      }
+    }
+    
+  .navegador {
+    margin-left: 1rem;
+    padding: 0.05rem;
+    padding-top: 0.10rem;
+     }
+  }
+
+@media (min-width: 320px) and (max-width: 540px) {
+  header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+     }
+
+  .tituloh1 {
+    font-size: 1.5rem;
+    }
+      
+  .headerLogo {
+    width: 30vw;
+    height: 10vh; 
+    }
+
+  .navegador {
+    margin-left: 0.1rem;
+    padding: 0.05rem;
+    padding-top: 0.10rem; 
+    }
+  }
