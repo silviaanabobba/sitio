@@ -112,8 +112,8 @@
   width: 30rem;
   height: 20rem;
   text-align: center;
-  margin-left: 30rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  margin-right: 15rem;
   margin-top: 2rem;
   margin-bottom: 2rem; 
   border-radius: 7%;
@@ -251,13 +251,13 @@
   
   .grid__container__contacto {
     grid-template-columns: 100%;
-    grid-template-rows: 20rem 17rem 20rem 20rem 4rem 4em;
+    grid-template-rows: 20rem 20rem 20rem 20rem 4rem 4rem;
     justify-items: center;
     align-items: center;
     gap: 2rem;
     margin-left: 1rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     width: 25rem;
     height:98rem;
      }
@@ -342,7 +342,8 @@
   .contactoTexto {
     font-size: 1.1rem;
     text-align: center;
-    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
     margin-right: 1rem;
     }
      
@@ -353,7 +354,7 @@
     flex-wrap: wrap;
     font-size: 2rem;
     padding: 1rem;
-    width: 21rem;
+    width: 25rem;
     height: 18rem;
     text-align: center;
     margin-left: 2rem;

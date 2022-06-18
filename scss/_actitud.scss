@@ -13,13 +13,13 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25rem;
-  gap: 2rem;
+  gap: 12rem;
   justify-content: center;
   align-content: center;
   background-position: center;
   padding-bottom: 0.10rem;
-  margin-left: 5rem;
-  margin-right: 5rem; 
+  margin-left: 8rem;
+  margin-right: 8rem; 
   }
 
 .container-fluid1  .grid__item .grid__uno {
@@ -62,15 +62,15 @@
 .container__actitud3{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 30rem;
-  gap: 2rem;
+  grid-template-rows: 35rem;
+  gap: 10rem;
   justify-content: center;
   align-content: center;
   background-position: center;
   padding-top: 2rem;
   padding-bottom: 0.10rem;
-  margin-left: 5rem;
-  margin-right: 5rem; 
+  margin-left: 8rem;
+  margin-right: 8rem; 
   }
 
 .grid__container__actitud3 .grid__uno {
@@ -89,7 +89,7 @@
 
 .imagenActitud {
   width: 40rem;
-  height: 25rem;
+  height: 30rem;
   border: solid wheat;
   border-radius: 5% ;
   } 
@@ -107,7 +107,7 @@
   font-size: 2rem;
   padding: 0.75rem;
   border-radius:10rem;
-  margin-left:40rem;
+  margin-left:35rem;
   margin-right: 15rem ;
   margin-bottom: 3rem;
     &:hover {  
@@ -312,7 +312,7 @@
   .container__actitud3{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15rem 20rem;
+    grid-template-rows: 15rem 30rem;
     gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 0.10rem;
@@ -356,7 +356,7 @@
     font-size: 1.5rem;
     padding: 0.75rem;
     border-radius:10rem;
-    margin-left:9rem;
+    margin-left:10rem;
     margin-right: 15rem ;
     margin-bottom: 3rem;
     &:hover {  

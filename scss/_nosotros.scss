@@ -93,7 +93,7 @@
 .grid__container__nosotros2{
   display:grid;
   grid-template-columns:50% 50%;
-  grid-template-rows: 20rem 22rem 10rem;
+  grid-template-rows: 25rem 25rem 10rem;
   gap: 4rem;
   justify-content: center;
   align-content: center;
@@ -156,16 +156,17 @@
   background-repeat: no-repeat;
   border-radius: 5%;
   }
+  
 .imagenCaphai{
-  width: 40rem;
-  height: 22rem;
+  width: 32rem;
+  height: 25rem;
   border-radius:5% ;
   } 
 
 .p__link{   
   width: 25rem;
   height: 7rem;
-  margin-left: 30rem ;
+  margin-left: 25rem ;
   }
 
 .linkContactoNosotros{
@@ -182,7 +183,7 @@
   font-size: 2rem;
   padding: 0.75rem;
   border-radius:10rem;
-  margin-left:40rem;
+  margin-left:35rem;
   margin-right: 15rem ;
   margin-bottom: 3rem;
     &:hover {  
@@ -289,7 +290,7 @@
   .grid__container__nosotros1{
     display:grid;
     grid-template-columns:50% 50%;
-    grid-template-rows: 12rem 12rem 10rem;
+    grid-template-rows: 12rem 12rem 15rem;
     gap: 1rem;
     padding-top: 0.25rem;
     margin-left: 1rem;
@@ -324,7 +325,7 @@
   .grid__container__nosotros2{
     display:grid;
     grid-template-columns:100% ;
-    grid-template-rows: 18rem 15rem 16rem 15rem 5rem;
+    grid-template-rows: 20rem 15rem 20rem 15rem 5rem;
     gap: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.10rem;
