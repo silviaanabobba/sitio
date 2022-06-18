@@ -711,7 +711,7 @@ span a:hover {
   background-position: center;
   padding-bottom: 0.10rem;
   margin-left: 15rem;
-  margin-right: 3rem; }
+  margin-right: 10rem; }
 
 .container-fluid1 .grid__uno {
   grid-row: 1/2;
@@ -729,6 +729,9 @@ span a:hover {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.container__texto1 {
+  text-align: justify; }
+
 .container__actitud2 {
   margin-left: 3rem;
   margin-right: 4rem;
@@ -737,7 +740,6 @@ span a:hover {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.75rem;
-  text-align: justify;
   border: solid white; }
 
 .actitudTituloh3 {
@@ -768,8 +770,8 @@ span a:hover {
   grid-row: 1/2;
   grid-column: 2/3; }
 
-.container__texto {
-  text-align: justify; }
+.container__texto2 {
+  text-align: left; }
 
 .imagenActitud {
   width: 40rem;
