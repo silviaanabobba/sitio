@@ -705,13 +705,13 @@ span a:hover {
   display: grid;
   grid-template-columns: 35% 10% 35%;
   grid-template-rows: 25rem;
-  gap: 15rem;
+  gap: 20rem;
   justify-content: center;
   align-content: center;
   background-position: center;
   padding-bottom: 0.10rem;
-  margin-left: 10rem;
-  margin-right: 2rem; }
+  margin-left: 15rem;
+  margin-right: 3rem; }
 
 .container-fluid1 .grid__uno {
   grid-row: 1/2;
@@ -730,7 +730,7 @@ span a:hover {
   background-repeat: no-repeat; }
 
 .container__actitud2 {
-  margin-left: 4rem;
+  margin-left: 3rem;
   margin-right: 4rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
