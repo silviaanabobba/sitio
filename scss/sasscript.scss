@@ -2,10 +2,8 @@
 $imagenescontacto:(
     key1:"contacto__1.jpg", 
     key2:"contacto__2.jpg",
-    key3:"contacto__5.jpg",
-    key4:"contacto__6.jpg",
-);
-
+    key3:"contacto__3.jpg",
+    );
 
 @mixin atributos ($width:30rem, $height:20rem, $border:1rem, $border-radius:3rem) { 
   width:$width;
@@ -26,10 +24,5 @@ $imagenescontacto:(
   background-image: url('..recursos/contacto/contacto__5.jpg');
   @include atributos;
    }
-.key4-contacto{
-  background-image: url('..recursos/contacto/contacto__6.jpg');
-  @include atributos;
-   }
-
 
  
