@@ -2,13 +2,12 @@
   margin-left: 25rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
+  }
 
 .container-fluid1{
   width: 40rem;
   height: 20rem;
-}
-
+  }
 
 .container__actitud1 {
   display: grid;
@@ -20,37 +19,45 @@
   background-position: center;
   padding-bottom: 0.10rem;
   margin-left: 5rem;
-  margin-right: 5rem; }
+  margin-right: 5rem; 
+  }
 
 .container-fluid1  .grid__item .grid__uno {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat; }
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  }
   
 .container-fluid1  .grid__item .grid__dos {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    background-position: inherit;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  }
 
 .container__actitud2{
-    margin-left: 4rem;
-    margin-right: 4rem;
-    padding-bottom: 2rem;
-    }
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  padding-top:1rem ;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+  text-align: justify;
+  border: solid white;
+  }
 
 .actitudTituloh3{
-   color:white ;
-   margin-left: 25rem;
-}
+  color:white ;
+  margin-left: 25rem;
+  }
 
 .actitud__texto{
   font-size: 1.50rem;
- }
+  }
 
 .container__actitud3{
   display: grid;
@@ -63,69 +70,80 @@
   padding-top: 2rem;
   padding-bottom: 0.10rem;
   margin-left: 5rem;
-  margin-right: 5rem; }
-
-   
+  margin-right: 5rem; 
+  }
 
 .grid__container__actitud3 .grid__uno {
-    grid-row: 1/2;
-    grid-column: 1/2;
-     }
+  grid-row: 1/2;
+  grid-column: 1/2;
+   }
 
 .grid__container__actitud3 .grid__dos {
-      grid-row: 1/2;
-      grid-column: 2/3;
-     } 
-.imagen {
+  grid-row: 1/2;
+  grid-column: 2/3;
+   } 
+
+.container__texto{
+  text-align: justify;
+  }
+
+.imagenActitud {
   width: 40rem;
   height: 25rem;
- } 
+  border: solid wheat;
+  border-radius: 5% ;
+  } 
      
-     .linkContactoActitud {
-      padding-bottom: 2rem;
-      margin-left: 20rem;
-        }  
+.linkContactoActitud {
+  padding-bottom: 2rem;
+  text-align: center;
+   }
     
-    .btn__actitud{
-      background-color:white;
-      width: $ancho/2;
-      height:$alto/2 ;
-      color:black;
-      font-size: 2rem;
-      padding: 0.75rem;
-      border-radius:10rem;
-      margin-left:40rem;
-      margin-right: 15rem ;
-      margin-bottom: 3rem;
-        &:hover {  
-        transform: scale(1.20);
-        background-color:rgb(29, 41, 37);
-        padding:1rem ;
-         }
-      } 
+.btn__actitud{
+  background-color:white;
+  width: $ancho/2;
+  height:$alto/2 ;
+  color:black;
+  font-size: 2rem;
+  padding: 0.75rem;
+  border-radius:10rem;
+  margin-left:40rem;
+  margin-right: 15rem ;
+  margin-bottom: 3rem;
+    &:hover {  
+    transform: scale(1.20);
+    background-color:rgb(29, 41, 37);
+    padding:1rem ;
+    }
+  } 
                 
-    .btn__actitud__texto{
-      color:black;
-      &:hover{
-      color:wheat
-       }
-      }    
-
-
-
- 
+  .btn__actitud__texto{
+    color:black;
+    &:hover{
+    color:white;
+    }
+  }    
 
 @media (min-width: 541px) and (max-width: 720px) {
   
   .actitudTituloh2{
+    font-size: 1.75rem;
+    text-align: center;
     margin-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-  
+    }
+
+  .actitudTituloh3{
+    font-size: 1.60rem;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+    
   .container-fluid1{
-  width: 33rem;
-  height: 10rem;
+    width: 33rem;
+    height: 10rem;
     }
 
   .container__actitud1 {
@@ -138,130 +156,119 @@
     background-position: center;
     padding-bottom: 0.10rem;
     margin-left: 2rem;
-    margin-right: 1rem; }
+    margin-right: 1rem; 
+    }
   
   .container-fluid1  .grid__item .grid__uno {
       grid-row: 1/2;
       grid-column: 1/1;
       background-position: inherit;
       background-size: cover;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat; 
+      }
     
   .container-fluid1 .grid__item .grid__dos {
-    
-      grid-row: 2/3;
-      grid-column: 1/1;
-      background-position: inherit;
-      background-size: cover;
-      background-repeat: no-repeat; }
+    grid-row: 2/3;
+    grid-column: 1/1;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    }
 
   .container__texto{
     font-size: 1.25rem;
-   } 
- 
-      
-  
+    } 
+   
   .container__actitud2{
-      margin-left: 2rem;
-      margin-right: 2rem;
-      padding-bottom: 2rem;
-      gap:1rem;
-      }
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    gap:2rem;
+    }
 
 
   .actitudTituloh3{
-     color:white ;
-     margin-left: 5rem;
-  }
+    color:white ;
+    margin-left: 5rem;
+    }
 
   .actitud__texto{
     font-size: 1.25rem;
-   }
+    }
 
   .container__actitud3{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25rem 23rem;
+    grid-template-rows: 20rem 23rem;
     gap: 1rem;
     padding-top: 1em;
     margin-left: 1rem;
-    margin-right: 1rem; }
+    margin-right: 1rem; 
+    }
 
-    .grid__container__actitud3 .grid__item.grid__dos {
-      margin-right: 1rem;
-      grid-row: 2/3;
-      grid-column: 1/1;
+  .grid__container__actitud3 .grid__item.grid__dos {
+    margin-right: 1rem;
+    grid-row: 2/3;
+    grid-column: 1/1;
     }  
   
- .grid__item .grid__dos .imagen{
-  width: 80%;
-  height: 5rem;
-  margin-right: 1rem;
-
- }
+  .grid__item .grid__dos .imagen{
+    width: 80%;
+    height: 5rem;
+    margin-right: 1rem;
+    }
     
   .grid__container__actitud3 .grid__item .grid__uno {
      grid-row: 1/2;
-      grid-column: 1/1;
+     grid-column: 1/1;
        }
        
-  .imagen {
+  .imagenActitud {
         width: 35rem;
-        height: 25rem;
+        height: 20rem;
        } 
 
   .linkContactoActitud {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
-        padding-bottom: 2rem;
-        margin-left: 3rem;
-          }  
+    padding-bottom: 2rem;
+    text-align: center;
+    }  
       
   .btn__actitud{
-        background-color:white;
-        width: $ancho/2;
-        height:$alto/2 ;
-        color:black;
-        font-size: 2rem;
-        padding: 0.75rem;
-        border-radius:10rem;
-        margin-left:15rem;
-        margin-right: 15rem ;
-        margin-bottom: 3rem;
-          &:hover {  
-          transform: scale(1.20);
-          background-color:rgb(29, 41, 37);
-          padding:1rem ;
-           }
-        } 
+    width: $ancho/2.2;
+    height:$alto/2.2 ;
+    margin-left:13rem ;
+    padding: 0.5rem;
+    }
                   
-      .btn__actitud__texto{
-        color:black;
-        &:hover{
-        color:wheat
-         }
-        }    
-  
+  .btn__actitud__texto{
+    color:black;
+    &:hover{
+    color:white;
+      }
+    }    
   
   }
+
 @media (min-width: 320px) and (max-width: 540px) {
   
   .actitudTituloh2{
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
+    font-size: 1.25rem;
+    margin-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+    }
   
   .container-fluid1{
-  width: 23rem;
-  height: 20rem;
+    width: 23rem;
+    height: 20rem;
     }
 
   .container__actitud1 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 14rem 14rem;
+    grid-template-rows: 18rem 14rem;
     gap: 1rem;
     justify-content:center;
     align-content: center;
@@ -269,42 +276,38 @@
     text-align: justify;
     padding-bottom: 0.10rem;
     margin-left: 1rem;
-    margin-right: 1rem; }
+    margin-right: 1rem; 
+    }
   
   .container-fluid1  .grid__item .grid__uno {
-      grid-row: 1/2;
-      grid-column: 1/1;
-       }
+    grid-row: 1/2;
+    grid-column: 1/1;
+    }
     
   .container-fluid1 .grid__item .grid__dos {
-    
-      grid-row: 2/3;
-      grid-column: 1/1;
-       }
+    grid-row: 2/3;
+    grid-column: 1/1;
+    }
 
   .container__texto{
     font-size: 1rem;
-   } 
- 
-      
-  
+    } 
   .container__actitud2{
-      margin-left: 1rem;
-      margin-right: 2rem;
-      padding-bottom: 2rem;
-      gap:1rem;
-      }
-
+    margin-left: 1rem;
+    margin-right: 2rem;
+    padding-bottom: 0.7rem;
+    gap:1rem;
+    }
 
   .actitudTituloh3{
-     font-size: 1.20rem;
-     color:white ;
-     margin-left: 1rem;
-  }
+    font-size: 1.20rem;
+    color:white ;
+    margin-left: 1rem;
+    }
 
   .actitud__texto{
     font-size: 1rem;
-   }
+    }
 
   .container__actitud3{
     display: grid;
@@ -314,62 +317,60 @@
     padding-top: 2rem;
     padding-bottom: 0.10rem;
     margin-left: 1rem;
-    margin-right: 1rem; }
+    margin-right: 1rem; 
+    }
   
  .grid__item .grid__dos .imagen{
-  width: 10rem;
-  height: 5rem;
-
- }
+    width: 10rem;
+    height: 5rem;
+     }
     
   .grid__container__actitud3 .grid__item .grid__uno {
-    
-      grid-row: 1/2;
-      grid-column: 1/1;
-       }
-  .grid__container__actitud3 .grid__item.grid__dos {
-    
-        grid-row: 2/3;
-        grid-column: 1/1;
-      }
+    grid-row: 1/2;
+    grid-column: 1/1;
+    }
 
-  .imagen {
-        width: 22rem;
-        height: 15rem;
-       }    
+  .grid__container__actitud3 .grid__item.grid__dos {
+    grid-row: 2/3;
+    grid-column: 1/1;
+    }
+
+  .imagenActitud {
+    width: 22rem;
+    height: 15rem;
+    }    
  
-      .linkContactoActitud {
-    font-size: 1.25rem;
+  .linkContactoActitud {
+    font-size: 1.20rem;
     text-align: center;
     margin-top: 1rem;
-        padding-bottom: 2rem;
-        margin-left: 1rem;
-          }  
+    padding-bottom: 2rem;
+    text-align: center;
+     }  
       
   .btn__actitud{
-        background-color:white;
-        width: $ancho/2.5;
-        height:$alto/2.5 ;
-        color:black;
-        font-size: 1.5rem;
-        padding: 0.75rem;
-        border-radius:10rem;
-        margin-left:8rem;
-        margin-right: 15rem ;
-        margin-bottom: 3rem;
-          &:hover {  
-          transform: scale(1.20);
-          background-color:rgb(29, 41, 37);
-          padding:1rem ;
-           }
-        } 
+    background-color:white;
+    width: $ancho/2.5;
+    height:$alto/2.5 ;
+    color:black;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    border-radius:10rem;
+    margin-left:9rem;
+    margin-right: 15rem ;
+    margin-bottom: 3rem;
+    &:hover {  
+      transform: scale(1.20);
+      background-color:rgb(29, 41, 37);
+      padding:1rem ;
+      }
+    } 
                   
-      .btn__actitud__texto{
-        color:black;
-        &:hover{
-        color:wheat
-         }
-        }    
+  .btn__actitud__texto{
+    color:black;
+    &:hover{
+    color:wheat
+      }
+    }    
   
-  
-  }
+   }  

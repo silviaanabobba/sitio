@@ -26,8 +26,8 @@
   color:white ;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  margin-left: 18rem;
-}
+  text-align: center;
+  }
 
 .btn{
   background-color: white;
@@ -50,7 +50,7 @@
 .btn__texto{
   color:black;
     &:hover{
-    color:wheat
+    color:white;
     }
    }
   
@@ -60,10 +60,8 @@
   .indexTituloh2{
     font-size:1.5rem ;
     margin-left: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    }
+    margin-top: 0.5rem;
+     }
      
   .container-fluid{
     width:35rem ;
@@ -84,19 +82,21 @@
     }
 
   .indexTexto__p{
-    font-size:$font-size-p ;
+    font-size:1.25rem ;
   }
 
   .linkContactoIndex{
     color:white ;
-    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     margin-left: 1rem;
     }
 
   .btn{
-    margin-left:15rem ;
+    width: $ancho/2.2;
+    height:$alto/2.2 ;
+    margin-left:14rem ;
+    padding: 0.5rem;
     }
      
   }
@@ -105,12 +105,10 @@
 @media (min-width: 320px) and (max-width: 540px) {
     
   .indexTituloh2{
-    font-size:1.5rem ;
+    font-size:1.25rem ;
     margin-left: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-     }
+    margin-top: 0.5rem;
+    }
 
   .container-fluid{
     width: 25rem ;
@@ -139,8 +137,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     margin-left: 1rem;
-    text-align: center;
-    }
+     }
     
     .btn{
       background-color: white;
@@ -150,7 +147,7 @@
       font-size: 1.5rem;
       padding: 0.75rem;
       border-radius:10rem;
-      margin-left:8rem;
+      margin-left:10rem;
       margin-right: 15rem ;
       margin-bottom: 3rem;
         &:hover {  
@@ -163,10 +160,8 @@
     .btn__texto{
       color:black;
         &:hover{
-        color:wheat
+        color:white;
         }
-       }
-      
-    
+      }
   } 
 

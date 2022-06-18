@@ -1,13 +1,14 @@
 .nosotrosTituloh2{
   text-align: center;
   color: white;
-  padding: 2rem;
-  }
+  padding: 1rem;
+    }
 
 .nosotrosTituloh3{
   text-align: center;  
   color: white;
   padding: 1rem;
+  margin-bottom: 1.5rem ;
   }
 
 .nosotrosTituloh4{
@@ -17,13 +18,12 @@
 .grid__container__nosotros1{
   display:grid;
   grid-template-columns:50% 50%;
-  grid-template-rows: 25rem 25rem 10rem;
+  grid-template-rows: 25rem 25rem 8rem;
   gap: 2rem;
   justify-content: center;
   align-content: center;
   background-position: center;
-  padding-top: 3rem;
-  padding-bottom: 0.10rem;
+  padding-top: 1.5rem;    
   margin-left: 5rem;
   margin-right: 5rem;
   }
@@ -34,12 +34,12 @@
   text-align: center;
   }
 
-.grid__texto{
+.texto{
   font-size: 2rem;
   color: white;
   }
 
-.grid__texto1{
+.texto1{
   font-size:1.5rem ;
   }   
    
@@ -93,7 +93,7 @@
 .grid__container__nosotros2{
   display:grid;
   grid-template-columns:50% 50%;
-  grid-template-rows: 20rem 20rem 10rem;
+  grid-template-rows: 20rem 22rem 10rem;
   gap: 4rem;
   justify-content: center;
   align-content: center;
@@ -101,15 +101,24 @@
   padding-bottom: 0.10rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  } 
+  
+.border{
+  color: white;
+  border-style: dashed ;
+  border-radius: 5%;
+  padding: 1rem;
   }
 
-.grid__container__nosotros2.grid__uno{
+.grid__container__nosotros2.grid__item .grid__uno{
   grid-row: 1/2;
   grid-column: 1/2;
   background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  border: solid white
   } 
+    
 
 .grid__container__nosotros2  .grid__dos{
   grid-row: 1/2;
@@ -118,15 +127,16 @@
   background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5%;
   }
 
 .grid__container__nosotros2 .grid__tres{
   grid-row: 2/3;
   grid-column: 1/2;
-  background-image: url("../recursos/nosotros_6.png");
   background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5%;
   }
 
 .grid__container__nosotros2  .grid__cuatro{
@@ -144,8 +154,14 @@
   background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5%;
   }
-       
+.imagenCaphai{
+  width: 40rem;
+  height: 22rem;
+  border-radius:5% ;
+  } 
+
 .p__link{   
   width: 25rem;
   height: 7rem;
@@ -153,9 +169,8 @@
   }
 
 .linkContactoNosotros{
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-bottom: 2rem;
-  margin-left: 3rem;
   text-align: center;
   }
       
@@ -180,62 +195,87 @@
 .btn__nosotros__texto{
   color:black;
     &:hover{
-    color:wheat
+    color:white;
     }
   }
     
 @media (min-width:541px) and (max-width:720px){
 
   .nosotrosTituloh2{
+    font-size: 1.75rem;
     padding: 1rem;
+    margin-bottom:0.5rem ;
     }
 
-  .grid__texto1{
-    font-size:1.5rem ;
+  .texto{
+    font-size: 1.25rem;
+    }
+
+  .texto1{
+    font-size:1.15rem ;
     text-align: justify;
     }   
 
   .grid__container__nosotros1{
     display:grid;
     grid-template-columns:50% 50%;
-    grid-template-rows: 20rem 20rem 15rem;
+    grid-template-rows: 20rem 20rem 8rem;
     gap: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    margin-top: 1rem;s
+    margin-top: 0.5rem;;
     .grid__texto{
       font-size:1.5rem;
       color: rgb(250, 243, 243);   
       }  
     }
-
-  .texto1{
-    font-size:1.5rem;
-    } 
+  .nosotrosTituloh3{
+    font-size: 1.25rem;
+    padding: 2rem; 
+    margin-bottom:0.5rem ;
+    }
+    
 
   .grid__container__nosotros2{
     display:grid;
     grid-template-columns:50% 50%;
-    grid-template-rows: 25rem 35rem 10rem;
+    grid-template-rows: 18rem 19rem 8rem;
     gap: 2rem;
     padding-bottom: 0.10rem;
     margin-left: 2rem;
     margin-right: 2rem;
     }
- 
-  .p__link{   
-    margin-left: 5rem ;
+  .imagenCaphai{
+    width: 18rem;
+    height: 19rem;
+     }
+
+  .nosotrosTituloh4{
+    font-size: 1.25rem;
     }
+  .nosotros__p{
+    font-size: 0.9rem;
+    }  
+ 
+    .p__link{   
+      width: 15rem;
+      height: 5rem;
+      margin-left: 10rem ;
+      }
 
  .linkContactoNosotros{   
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-left: 1rem;
     text-align: center;
     }
 
-  .btn__nosotros{
-    margin-left:13rem ;
-    }
+  
+    .btn__nosotros{
+      width: $ancho/2.2;
+      height:$alto/2.2 ;
+      margin-left:13rem ;
+      padding: 0.5rem;
+      }
 
   }
   
@@ -268,7 +308,9 @@
     }
 
   .nosotrosTituloh3{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
     }
 
   .nosotrosTituloh4{
@@ -277,14 +319,15 @@
 
   .nosotros__p{
     font-size: 1rem;
-   }    
+    }    
 
   .grid__container__nosotros2{
     display:grid;
     grid-template-columns:100% ;
-    grid-template-rows: 18rem 20rem 16rem 20rem 5rem;
+    grid-template-rows: 18rem 15rem 16rem 15rem 5rem;
     gap: 1rem;
-   padding-bottom: 0.10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.10rem;
     margin-left: 1rem;
     margin-right: 1rem;
     }
@@ -331,7 +374,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     }
-     
+  .imagenCaphai{
+    width: 20em;
+    height: 15rem;
+    border-radius:5% ;
+      }  
+
   .p__link{   
     width: 15rem;
     height: 5rem;
@@ -339,7 +387,7 @@
     }
 
   .linkContactoNosotros{
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding-bottom: 2rem;
     margin-top: 1rem;
     margin-left: 0.75rem;
@@ -354,7 +402,7 @@
       font-size: 1.5rem;
       padding: 0.75rem;
       border-radius:10rem;
-      margin-left:8rem;
+      margin-left:9rem;
       margin-right: 15rem ;
       margin-bottom: 3rem;
         &:hover {  
@@ -367,7 +415,7 @@
     .btn__nosotros__texto{
       color:black;
         &:hover{
-        color:wheat
+        color:white;
         }
        }
   }

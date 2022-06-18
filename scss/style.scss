@@ -2,13 +2,11 @@
 @import 'sasscript'; 
 @import 'header';
 @import 'footer';
-
-@import 'actitud';
-@import 'contacto';
 @import 'index';
 @import 'nosotros';
 @import 'galeria';
-  
+@import 'actitud';
+@import 'contacto';  
 
 * {
   margin: 0px;
@@ -17,35 +15,35 @@
             
 body {
   margin: 1rem;
-  background-color: #304438;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color:$color-body;
+  font-family:$font-family-body;
   }
 
 h1 {
-  font-size: 3rem;
-  color: white; 
+  font-size: $font-size-h1;
+  color: $color-h1; 
   }
   
 h2 {
-  font-size: 2.5rem;
-  color: white; 
+  font-size: $font-size-h2;
+  color:$color-h2; 
   }
 
-h2 {
-  font-size: 2rem;
-  color: white; 
+h3 {
+  font-size: $font-size-h3;
+  color: $color-h3; 
    }  
  
  h4{
-  font-size: 1.75rem;
-  color: white; 
+  font-size: $font-size-h4;
+  color:$color-h4; 
    }  
   
 
 
 p {
-  font-size: 1.5rem; 
-  color: white;
+  font-size: $font-size-p; 
+  color:$color-p;
   }
 
   
