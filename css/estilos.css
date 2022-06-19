@@ -759,7 +759,7 @@ span a:hover {
   padding-top: 2rem;
   padding-bottom: 0.10rem;
   margin-left: 8rem;
-  margin-right: 8rem; }
+  margin-right: 12rem; }
 
 .grid__container__actitud3 .grid__uno {
   grid-row: 1/2;
@@ -835,7 +835,7 @@ span a:hover {
   .container-fluid1 .grid__dos {
     grid-row: 2/3;
     grid-column: 1/1; }
-  .container__texto {
+  .container__texto1 {
     font-size: 1.25rem; }
   .container__actitud2 {
     margin-left: 2rem;
@@ -907,7 +907,9 @@ span a:hover {
   .container-fluid1 .grid__dos {
     grid-row: 2/3;
     grid-column: 1/1; }
-  .container__texto {
+  .container__texto1 {
+    font-size: 1rem; }
+  .container__texto2 {
     font-size: 1rem; }
   .container__actitud2 {
     margin-left: 1rem;
