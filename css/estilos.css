@@ -749,9 +749,10 @@ span a:hover {
   font-size: 1.35rem; }
 
 .container__actitud3 {
+  background-color: black;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 30rem;
+  grid-template-rows: 25rem;
   gap: 10rem;
   justify-content: center;
   align-content: center;
@@ -774,7 +775,7 @@ span a:hover {
 
 .imagenActitud {
   width: 35rem;
-  height: 25rem;
+  height: 22rem;
   border: solid wheat;
   border-radius: 5%; }
 
