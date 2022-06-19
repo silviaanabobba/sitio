@@ -710,8 +710,8 @@ span a:hover {
   align-content: center;
   background-position: center;
   padding-bottom: 0.10rem;
-  margin-left: 15rem;
-  margin-right: 5rem; }
+  margin-left: 13rem;
+  margin-right: 7rem; }
 
 .container-fluid1 .grid__uno {
   grid-row: 1/2;
@@ -751,7 +751,7 @@ span a:hover {
 .container__actitud3 {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 35rem;
+  grid-template-rows: 30rem;
   gap: 10rem;
   justify-content: center;
   align-content: center;
@@ -773,7 +773,7 @@ span a:hover {
   text-align: left; }
 
 .imagenActitud {
-  width: 40rem;
+  width: 35rem;
   height: 25rem;
   border: solid wheat;
   border-radius: 5%; }
