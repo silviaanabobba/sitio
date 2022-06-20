@@ -1,6 +1,4 @@
-## h2
-# ESTUDIO BAIRES
-## h3 
+# ESTUDIO B AIRES
 # Es una sitio creado para una administracion de propiedad horizontal
 # Compuesto de cinco paginas "Inicio, Nosotros, Galeria, Actitus y Contacto" 
 # En cada pagina su busco un diseño dinamico con texto e imagenes en diferentes niveles
