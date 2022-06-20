@@ -279,13 +279,13 @@
   
   .nosotrosTituloh2{
     font-size: 1.25rem;
-    padding: 1rem;
+    margin-top: 0.25rem;
     }
 
   .grid__container__nosotros1{
     display:grid;
     grid-template-columns:50% 50%;
-    grid-template-rows: 12rem 12rem 12rem;
+    grid-template-rows: 12rem 12rem 15rem;
     gap: 0.5rem;
     padding-top: 0.25rem;
     margin-left: 0.5rem;
@@ -320,7 +320,7 @@
   .grid__container__nosotros2{
     display:grid;
     grid-template-columns:100% ;
-    grid-template-rows: 20rem 15rem 20rem 15rem 5rem;
+    grid-template-rows: 21rem 15rem 21rem 15rem 5rem;
     gap: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.10rem;
@@ -365,7 +365,7 @@
   .p__link{   
     width: 10rem;
     height: 3rem;
-    margin-left: 3.5rem ;
+    margin-left: 4rem ;
     }
 
   .linkContactoNosotros{
@@ -382,7 +382,7 @@
     font-size: 1.25rem;
     padding: 0.5rem;
     border-radius:10rem;
-    margin-left:7rem;
+    margin-left:8rem;
     margin-right: 5rem ;
     } 
     
