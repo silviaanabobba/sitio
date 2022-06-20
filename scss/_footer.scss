@@ -32,7 +32,7 @@ footer {
   margin-top: 0.5rem;
    }
   
-.navegador span a {
+.navegador p a {
   color:white;
   font-size: 1rem;
   border-left: 0.10rem solid white;
@@ -40,7 +40,7 @@ footer {
   padding-right: 1rem;
     }
 
-span a:hover {
+p a:hover {
   padding: 0.5rem;
    }
 
@@ -48,6 +48,30 @@ span a:hover {
       
    }
 
-@media (min-width: 320px) and (max-width: 540px) {   
+@media (min-width: 320px) and (max-width: 540px) { 
+
+  body{
+    margin-bottom: 0.5rem;
+  }
+
+  .instagram{
+    width: 2rem;
+    height: 1.5rem;
+     }     
+   
+  .facebook{
+    width: 2rem;
+    height: 1.5rem ;
+    }
+
+  .navegador p a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 0.5rem;
+    font-size: 0.75rem;
+    border-left: 0.1rem solid white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }    
       
   }  
