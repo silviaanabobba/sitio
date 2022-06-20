@@ -1192,7 +1192,7 @@ p a:hover {
     padding-top: 1rem; }
   .grid__container__contacto {
     grid-template-columns: 100%;
-    grid-template-rows: 15rem 22rem 15rem 15rem 6rem 6rem;
+    grid-template-rows: 15rem 23rem 15rem 15rem 6rem 6rem;
     justify-items: left;
     align-items: left;
     padding-left: 0.5rem;
@@ -1201,7 +1201,7 @@ p a:hover {
     padding-top: 0.5rem;
     padding-bottom: 3rem;
     width: 18rem;
-    height: 82rem; }
+    height: 85rem; }
   .key1-contacto {
     width: 17rem;
     height: 15rem; }
@@ -1220,7 +1220,7 @@ p a:hover {
     grid-row: 2/3;
     grid-column: 1/1;
     width: 17rem;
-    height: 22rem; }
+    height: 23rem; }
   .grid__container__contacto .grid__dos {
     grid-row: 3/4;
     grid-column: 1/1;
