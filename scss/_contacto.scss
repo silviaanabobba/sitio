@@ -1,96 +1,91 @@
-.contactoTituloh2{
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
-  }
-
-.grid__container__contacto {
+.container__contacto {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 30rem 30rem 5rem;
+  grid-template-rows: 25rem 25rem 5rem;
   margin-left: 1rem;
-  margin-right: 10rem;
-  gap: 5rem;
+  margin-right: 6rem;
+  gap: 3rem;
   justify-items: center;
   align-items: center;
-  margin-top: 0.5rem;
-  padding: 5rem; 
-  }
+  margin-top: 1rem;
+  padding: 2rem; 
 
-.grid__container__contacto .grid__uno {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  background-image: url("../recursos/contacto/contacto__1.jpg");
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid white; 
-  }
-
-.grid__container__contacto .grid__uno__texto {
-  grid-row: 1/2;
-  grid-column: 2/3;
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 35rem;
-  height: 30rem;
-  padding-top: 0.5rem;
-  padding-right: 0.5rem;
-  padding: 0.50rem;
-  padding-right: 0.5rem ;
-  text-align: justify;
-  border: solid white; 
-  border-radius: 7%;
-  }
-
-.grid__container__contacto .grid__dos {
-  grid-row: 2/3;
-  grid-column: 1/2;
-  background-image: url("../recursos/contacto/contacto__2.jpg");
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid white; 
-  }
-
-.grid__container__contacto .grid__tres {
-  grid-row: 2/3;
-  grid-column: 2/3;
-  background-image: url("../recursos/contacto/contacto__3.jpg");
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid white; 
-   }   
-
-.grid__container__contacto .grid__dos__texto {
-  grid-row: 3/4;
-  grid-column: 1/2;
-  width: 30rem;
-  text-align: center;
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid white; 
-   }
+  &__uno {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url("../recursos/contacto/contacto__1.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white; 
+    }
   
-.grid__container__contacto .grid__tres__texto {
-  grid-row: 3/4;
-  grid-column: 2/3;
-  width: 30rem;
-  text-align: center;
-  background-position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: solid white; 
+  &__uno__texto {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 25rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding: 0.50rem;
+    padding-right: 0.5rem ;
+    text-align: justify;
+    border: solid white; 
+    border-radius: 7%;
+    }
+  
+  &__dos {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url("../recursos/contacto/contacto__2.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white; 
+    }
+  
+  &__tres {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url("../recursos/contacto/contacto__3.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white; 
+     }   
+  
+  &__dos__texto {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    width: 30rem;
+    text-align: center;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white; 
+     }
+    
+  &__tres__texto {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 30rem;
+    text-align: center;
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white; 
+    }
   }
+
 
 .textoGrid1 {
   font-size: 1.35rem;
      }
 
-.textoGrid {
+.textoGrid2 {
  font-size: 1.5rem;
   }
 
@@ -116,29 +111,31 @@
   margin-top: 2rem;
   margin-bottom: 2rem; 
   border-radius: 7%;
-  }
-.imput .contacto__imput{
+
+  &__contacto {
     font-size: 1.5rem;
     padding: 0.50rem;
     color: white; 
     }
 
-.imput .contacto__imput1 {
+  &__contacto__uno {
   padding: 0.50rem;
-  color: white; 
   height: 2rem;
   width: 17rem;
   }
 
-.imput .contacto__imput2{
+ &__contacto__dos{
   padding: 0.50rem;
-  color: white; 
   height: 5rem;
   width: 15rem;
+  text-align:left;
   }
+
+}
 
 
 @media (min-width: 541px) and (max-width: 720px) {
+  
   .contactoTituloh2{
     font-size: 1.75rem;
     text-align: center;
@@ -146,68 +143,69 @@
     padding-bottom: 0.5rem;
     }
   
-  .grid__container__contacto {
+  .container__contacto {
     grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem 5rem;
-    gap: 1.5rem;
+    grid-template-rows: 18rem 18rem 5rem;
+    gap: 1rem;
     margin-left: 0.5rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     padding: 2rem; 
-    }
-  
-  .grid__container__contacto .grid__uno {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    margin: auto;
-    width: 15rem;
-    height:15rem ;
-    }
-  
-  .grid__container__contacto .grid__uno__texto  {
-    font-size:1rem ;
-    grid-row: 1/2;
-    width: 15rem;
-    height: 15rem;
-    grid-column: 2/3;
-     }
- 
-  .grid__container__contacto .grid__dos {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    width: 15rem;
-    height:15rem ;
-    }
-
-  .grid__container__contacto .grid__tres {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    width: 15rem;
-    height:15rem ;
-    }         
-
-  .grid__container__contacto .grid__dos__texto {
-    font-size: 1rem;
-    grid-row: 3/4;
-    grid-column: 1/2;
-    width: 15rem;
-    height: 5rem;
-    }
+    
+    &__uno {
+      grid-row: 1/2;
+      grid-column: 1/2;
+      margin: auto;
+      width: 15rem;
+      height:18rem ;
+      }
+    
+    &__uno__texto  {
+      font-size:1rem ;
+      grid-row: 1/2;
+      width: 15rem;
+      height: 18rem;
+      grid-column: 2/3;
+       }
    
-  .grid__container__contacto .grid__item.grid__tres__texto {
-    font-size: 1rem;
-    grid-row: 3/4;
-    grid-column: 2/3;
-    width: 15rem;
-    height: 5rem;
-    }
+    &__dos {
+      grid-row: 2/3;
+      grid-column: 1/2;
+      width: 15rem;
+      height:18rem ;
+      }
+  
+    &__tres {
+      grid-row: 2/3;
+      grid-column: 2/3;
+      width: 15rem;
+      height:18rem ;
+      }         
+  
+    &__dos__texto {
+      font-size: 1rem;
+      grid-row: 3/4;
+      grid-column: 1/2;
+      width: 15rem;
+      height: 5rem;
+      }
+     
+    &__tres__texto {
+      font-size: 1rem;
+      grid-row: 3/4;
+      grid-column: 2/3;
+      width: 15rem;
+      height: 5rem;
+      }
 
+  }
+  
   .textoGrid1{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     }  
 
-  .textoGrid{
+  .textoGrid2{
     font-size: 1rem;
     }
       
@@ -223,16 +221,17 @@
     padding: 1rem;
     width: 30rem;
     height: 22rem;
-    margin-left: 6.5rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem; 
+
+    &__contacto {
+      font-size: 1.25rem;
+      padding: 0.50rem;
+       }
     }
-      
-  .imput .contacto__imput {
-    font-size: 1.25rem;
-    padding: 0.50rem;
-     }
+ 
   }
 
 @media (min-width: 320px) and (max-width: 540px) {
@@ -242,88 +241,85 @@
     text-align: center;
     margin-left: 1rem;
     padding-top: 1rem;
-     }
-  
-  .grid__container__contacto {
-    grid-template-columns: 100%;
-    grid-template-rows: 15rem 23rem 15rem 15rem 6rem 6rem;
-    justify-items: left;
-    align-items: left;
-    padding-left: 0.5rem;
-    gap: 0.75rem;
-    margin-left: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 3rem;
-    width: 18rem;
-    height:85rem;
+    margin-bottom: 1rem;
      }
 
   .key1-contacto{
     width: 17rem;
-    height: 15rem;
-   
+    height: 17rem;
     }
-
+  
   .key2-contacto{
     width: 17rem;
-    height: 15rem;
-   
+    height: 17rem; 
     }
-
+  
   .key3-contacto{
     width: 17rem;
-    height: 15rem;
-   
-    }
+    height: 17rem;
+    }  
   
-  .grid__container__contacto .grid__uno {
-    align-content: center;
-    grid-row: 1/2;
-    grid-column: 1/1;
-    width: 17rem;
-     }
-  
-  .grid__container__contacto .grid__uno__texto {
-    grid-row: 2/3;
-    grid-column:1/1;
-    width: 17rem;
-    height: 23rem;
-     }
- 
-  .grid__container__contacto .grid__dos {
-    grid-row: 3/4;
-    grid-column: 1/1;
-    width: 17rem;
-     }
+  .container__contacto {
+   background-color: black;
+    grid-template-columns: 100%;
+    grid-template-rows: 18rem 27rem 18rem 18rem 4rem 5rem;
+    justify-items: left;
+    align-items: left;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    gap: 0.50rem;
+    width: 19rem;
+    height:93rem;
 
-  .grid__container__contacto .grid__tres {
-    grid-row: 4/5;
-    grid-column: 1/1;
-    width: 17rem;
+    &__uno {
+      align-content: center;
+      grid-row: 1/2;
+      grid-column: 1/1;
+      width: 17rem;
+      padding: 0.5rem;
+       }
     
-       
-    }         
-
-  .grid__container__contacto .grid__dos__texto {
-    grid-row: 5/6;
-    grid-column: 1/1;
-    width: 17rem;
-    height: 6rem;
-     }
-
-  .grid__container__contacto .grid__tres__texto  {
-    grid-row: 6/7; 
-    grid-column: 1/1;
-    font-size: 0.5rem;
-    width: 17rem;
-    height: 6rem;
+    &__uno__texto {
+      grid-row: 2/3;
+      grid-column:1/1;
+      width: 17rem;
+      height: 27rem;
+       }
+   
+    &__dos {
+      grid-row: 3/4;
+      grid-column: 1/1;
+      width: 17rem;
+       }
+  
+    &__tres {
+      grid-row: 4/5;
+      grid-column: 1/1;
+      width: 17rem;
+      }         
+  
+    &__dos__texto {
+      grid-row: 5/6;
+      grid-column: 1/1;
+      width: 17rem;
+      height: 4rem;
+       }
+  
+    &__tres__texto  {
+      grid-row: 6/7; 
+      grid-column: 1/1;
+      font-size: 0.5rem;
+      width: 17rem;
+      height: 5rem;
+       }
      }
 
   .textoGrid1{
     font-size: 1rem;
     }    
 
-  .textoGrid{
+  .textoGrid2{
     font-size: 1rem;
     }
   
@@ -336,34 +332,41 @@
     }
      
   .imput {
-    font-size: 2rem;
-    padding: 1rem;
-    width: 20rem;
-    height: 33rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 18rem;
+    height: 27rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 2rem;
-    margin-bottom: 2rem; 
-    }
-      
-  .imput .contacto__imput {
-    font-size: 1.25rem;
-    padding: 0.50rem;
-
-  .imput .contacto__imput1 {
-      height: 2rem;
-      width: 6rem;
-      }
+    margin-bottom: 3rem; 
     
-  .imput .contacto__imput2{
-      height: 5rem;
-      width: 7rem;
+    &__contacto {
+      font-size: 1rem;
+      padding: 0.50rem;
+      text-align: left;
+         }
+
+    &__contacto1 {
+      font-size: 1rem;
+      padding: 0.50rem;
+      text-align: left;
+     
       }
 
-
-
-
-
-    }
- }
+  
+    &__contacto__uno {
+        height: 2rem;
+        width: 15em;
+        }
+      
+    &__contacto__dos{
+        height: 5rem;
+        width: 15rem;
+        }
+  
+     }
+  }
+ 
 

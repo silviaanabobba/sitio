@@ -1,8 +1,4 @@
-.galeriaTituloh2{
-  padding: 2rem;
-  margin-left: 30%; }
-
-.grid__container__galeria {
+.container__galeria {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 15rem 15rem 15rem 15rem;
@@ -14,96 +10,65 @@
   margin-left: 5rem;
   margin-right: 5rem;
   margin-bottom: 2rem;
-  }
 
-  .grid__container__galeria .grid__uno {
+  &__uno {
     grid-area: uno;
     background-image: url("../recursos/edificio__3.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__dos {
+  &__dos {
     grid-area: dos;
     background-image: url("../recursos/edificio__4.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__tres {
+  &__tres {
     grid-area: tres;
     background-image: url("../recursos/edificio__5.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__cuatro {
+  &__cuatro {
     grid-area: cuatro;
     background-image: url("../recursos/edificio__6.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__cinco {
+  &__cinco {
     grid-area: cinco;
     background-image: url("../recursos/edificio__7.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__seis {
+  &__seis {
     grid-area: seis;
     background-image: url("../recursos/edificio__8.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__siete {
+  &__siete {
     grid-area: seis;
     background-image: url("../recursos/edificio__9.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
 
-  .grid__container__galeria .grid__ocho {
+  &__ocho {
     grid-area: ocho;
     background-image: url("../recursos/edificio__10.jpg");
     background-position: inherit;
     background-size: cover;
     background-repeat: no-repeat; }
-
-.linkContactoGaleria {
-  padding-bottom: 2rem;
-  text-align: center;
-  }  
-                            
-.btn__galeria{
-  background-color:white;
-  width: $ancho/2;
-  height:$alto/2 ;
-  color:black;
-  font-size: 2rem;
-  padding: 0.75rem;
-  border-radius:10rem;
-  margin-left:37rem;
-  margin-right: 15rem ;
-  margin-bottom: 3rem;
-    &:hover {  
-    transform: scale(1.20);
-    background-color:rgb(29, 41, 37);
-    padding:1rem ;
-     }
-  } 
-            
-.btn__galeria__texto{
-  color: black;
-  &:hover{                                 
-  color:white;
-   }
   }
-          
-
-
+  
+ 
 @media (min-width: 541px) and (max-width: 720px) {
 
   .galeriaTituloh2{
@@ -113,7 +78,7 @@
     margin-top: 0.25rem;
     }
     
-  .grid__container__galeria {
+  .container__galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15rem 15rem 15rem 15rem;
@@ -131,19 +96,6 @@
    .gridTexto{
     font-size: 1rem;
    }
-
-  .linkContactoGaleria {
-    font-size: 1.45rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    }  
-    
-  .btn__galeria{
-      width: $ancho/2.2;
-      height:$alto/2.2 ;
-      margin-left:13rem ;
-      padding: 0.5rem;
-      }
   
   }
 
@@ -157,7 +109,7 @@
     font-size: 1.25rem;
     }
 
-  .grid__container__galeria {
+  .container__galeria {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 20rem 20rem 20rem 20rem 20rem 20rem 20rem;
@@ -176,21 +128,5 @@
   .gridTexto{
     font-size: 1rem;
     }
-  
-  .linkContactoGaleria {
-    font-size:1rem ;
-    padding-bottom: 2rem;
-    text-align: center;
-    }   
-  
-  
-  .btn__galeria{
-    width: $ancho/3;
-    height:$alto/3 ;
-    font-size: 1.25rem;
-    padding: 0.5rem;
-    margin-left:8rem;
-    margin-right: 5rem ;
-    } 
-    
+      
   }
