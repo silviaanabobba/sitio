@@ -168,7 +168,7 @@ p a:hover {
     margin-left: 1rem;
     margin-top: 0.5rem; }
   .carousel {
-    width: 35rem;
+    width: 33rem;
     height: 15rem;
     margin-left: 1rem;
     margin-right: 1rem; }
@@ -198,6 +198,7 @@ p a:hover {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem; }
   .indexTexto {
+    flex-direction: column;
     font-size: 0.5rem;
     gap: 0.2rem;
     margin-left: 1rem;
@@ -340,7 +341,7 @@ p a:hover {
 .p__link {
   width: 25rem;
   height: 7rem;
-  margin-left: 30rem; }
+  margin-left: 26rem; }
 
 @media (min-width: 541px) and (max-width: 720px) {
   .nosotrosTituloh2 {
@@ -391,7 +392,7 @@ p a:hover {
   .container__nosotros1 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 12rem 12rem 17rem;
+    grid-template-rows: 12rem 12rem 13rem;
     gap: 0.5rem;
     padding-top: 0.25rem;
     margin-left: 0.5rem;
@@ -418,7 +419,7 @@ p a:hover {
   .container__nosotros2 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 21rem 15rem 21rem 15rem 5rem;
+    grid-template-rows: 19rem 15rem 18rem 15rem 5rem;
     gap: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.10rem;
@@ -547,7 +548,7 @@ p a:hover {
     font-size: 1rem; } }
 
 .imagenActitud1 {
-  width: 40rem;
+  width: 35rem;
   height: 20rem;
   border: solid wheat;
   border-radius: 5%; }
@@ -600,7 +601,6 @@ p a:hover {
   font-size: 1.25rem; }
 
 .container__actitud3 {
-  background-color: black;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25rem;
@@ -639,7 +639,7 @@ p a:hover {
     padding-top: 2rem;
     padding-bottom: 2rem; }
   .imagenActitud1 {
-    width: 33rem;
+    width: 34rem;
     height: 20rem;
     border: solid wheat;
     border-radius: 5%;
@@ -676,7 +676,7 @@ p a:hover {
   .container__actitud3 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 27rem 22rem;
+    grid-template-rows: 25rem 22rem;
     gap: 1rem;
     padding-top: 1em;
     margin-left: 2rem;
@@ -710,7 +710,7 @@ p a:hover {
   .container__actitud1 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 22rem 13rem;
+    grid-template-rows: 19rem 13rem;
     gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -743,7 +743,7 @@ p a:hover {
   .container__actitud3 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 14rem 25rem;
+    grid-template-rows: 16rem 21rem;
     gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 0.10rem;
@@ -878,6 +878,8 @@ p a:hover {
     text-align: left; }
   .imput__contacto__tres {
     background-color: #cdeec9; }
+  .imput__contacto__cuatro {
+    background-color: #cdeec9; }
 
 @media (min-width: 541px) and (max-width: 720px) {
   .contactoTituloh2 {
@@ -972,7 +974,7 @@ p a:hover {
     height: 17rem; }
   .container__contacto {
     grid-template-columns: 100%;
-    grid-template-rows: 18rem 34rem 18rem 18rem 8rem 8rem;
+    grid-template-rows: 18rem 25rem 18rem 18rem 5rem 5rem;
     justify-items: left;
     align-items: left;
     padding: 0.5rem;
@@ -981,7 +983,7 @@ p a:hover {
     margin-left: 2rem;
     gap: 0.50rem;
     width: 19rem;
-    height: 105rem; }
+    height: 92rem; }
     .container__contacto__uno {
       align-content: center;
       grid-row: 1/2;
@@ -992,7 +994,7 @@ p a:hover {
       grid-row: 2/3;
       grid-column: 1/1;
       width: 20rem;
-      height: 27rem; }
+      height: 25rem; }
     .container__contacto__dos {
       grid-row: 3/4;
       grid-column: 1/1;
@@ -1005,7 +1007,7 @@ p a:hover {
       grid-row: 5/6;
       grid-column: 1/1;
       width: 20rem;
-      height: 4rem; }
+      height: 5rem; }
     .container__contacto__tres__texto {
       grid-row: 6/7;
       grid-column: 1/1;
@@ -1046,7 +1048,14 @@ p a:hover {
       width: 15em; }
     .imput__contacto__dos {
       height: 5rem;
-      width: 15rem; } }
+      width: 15rem; }
+    .imput__contacto__tres {
+      height: 2rem;
+      width: 11rem; }
+    .imput__contacto__cuatro {
+      height: 2rem;
+      width: 10rem;
+      margin-left: 1rem; } }
 
 * {
   margin: 0px;
@@ -1100,7 +1109,7 @@ p {
   font-size: 2rem;
   padding: 0.75rem;
   border-radius: 10rem;
-  margin-left: 35rem;
+  margin-left: 34rem;
   margin-right: 15rem;
   margin-bottom: 3rem; }
   .btn:hover {
@@ -1114,9 +1123,10 @@ p {
 
 @media (min-width: 541px) and (max-width: 720px) {
   .link {
-    height: 13rem;
+    height: 12rem;
     margin-left: 2rem; }
     .link__contacto {
+      font-size: 1.5rem;
       color: white;
       padding-top: 1rem;
       padding-bottom: 2rem;
