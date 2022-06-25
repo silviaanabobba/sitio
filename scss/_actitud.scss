@@ -61,12 +61,14 @@
   margin-left: 25rem;
   }
 
-
+.actitud__texto{
+  font-size: 1.25rem;
+}
 
 .container__actitud3 {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 25rem;
+  grid-template-rows: 30rem;
   gap: 5rem;
   justify-content: center;
   align-content: center;
@@ -114,7 +116,7 @@
     
     }
   .imagenActitud1 {
-      width: 35rem;
+      width: 33rem;
       height: 20rem;
       border: solid wheat;
       border-radius: 5%;
@@ -193,7 +195,7 @@
     }
 
   .imagenActitud {
-    width: 37rem;
+    width: 35rem;
     height: auto;
     
     }
@@ -294,7 +296,7 @@
    }
   
   .imagenActitud {
-    width: 20rem;
+    width: 22rem;
     height: auto;
     }
 
