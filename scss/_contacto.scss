@@ -80,13 +80,12 @@
     }
   }
 
-
 .textoGrid1 {
   font-size: 1.30rem;
-     }
+  }
 
 .textoGrid2 {
- font-size: 1.5rem;
+  font-size: 1.5rem;
   }
 
 .contactoTexto {
@@ -95,7 +94,7 @@
   margin-left:5rem;
   margin-right: 5rem;
   text-align: center;
-   }
+  }
   
 .imput {
   background-color:rgb(29, 41, 37);
@@ -121,23 +120,26 @@
   &__contacto1 {
     font-size: 1.5rem;
     padding-left: 1.5rem;
-    
      }
 
-
   &__contacto__uno {
-  padding: 0.50rem;
-  height: 2rem;
-  width: 17rem;
-  }
+    background-color: rgb(205, 238, 201);  
+    padding: 0.50rem;
+    height: 2rem;
+    width: 17rem;
+    }
 
  &__contacto__dos{
-  padding: 0.50rem;
-  height: 5rem;
-  width: 15rem;
-  text-align:left;
-  }
+    background-color: rgb(205, 238, 201);  
+    padding: 0.50rem;
+    height: 5rem;
+    width: 15rem;
+    text-align:left;
+    }
 
+ &__contacto__tres{
+    background-color: rgb(205, 238, 201);
+  }
 }
 
 
@@ -154,8 +156,8 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 18rem 18rem 5rem;
     gap: 1rem;
-    margin-left: 0.5rem;
-    margin-right: 1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     padding: 2rem; 
@@ -164,14 +166,14 @@
       grid-row: 1/2;
       grid-column: 1/2;
       margin: auto;
-      width: 15rem;
+      width: 17rem;
       height:18rem ;
       }
     
     &__uno__texto  {
       font-size:1rem ;
       grid-row: 1/2;
-      width: 15rem;
+      width: 17rem;
       height: 18rem;
       grid-column: 2/3;
        }
@@ -179,14 +181,14 @@
     &__dos {
       grid-row: 2/3;
       grid-column: 1/2;
-      width: 15rem;
+      width: 17rem;
       height:18rem ;
       }
   
     &__tres {
       grid-row: 2/3;
       grid-column: 2/3;
-      width: 15rem;
+      width: 17rem;
       height:18rem ;
       }         
   
@@ -194,7 +196,7 @@
       font-size: 1rem;
       grid-row: 3/4;
       grid-column: 1/2;
-      width: 15rem;
+      width: 17rem;
       height: 5rem;
       }
      
@@ -202,14 +204,14 @@
       font-size: 1rem;
       grid-row: 3/4;
       grid-column: 2/3;
-      width: 15rem;
+      width: 17rem;
       height: 5rem;
       }
 
   }
   
   .textoGrid1{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     }  
 
   .textoGrid2{
@@ -242,11 +244,8 @@
       padding-left: 2rem;
       text-align: left;
          }  
-
-
     }
- 
-  }
+ }
 
 @media (min-width: 320px) and (max-width: 540px) {
  
@@ -281,7 +280,7 @@
     padding: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     gap: 0.50rem;
     width: 19rem;
     height:105rem;

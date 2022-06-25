@@ -54,15 +54,14 @@ p {
 .link{
   height:13rem;
   margin-left: 2rem;
-
+  &__contacto{
+    color:white ;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
     }
-
-.link__contacto{
-  color:white ;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  text-align: center;
   }
+
   
 .btn{
   background-color: white;
@@ -93,16 +92,14 @@ p {
   .link{
     height:13rem;
     margin-left: 2rem;
-    
-        }
-  
-  .link__contacto{
-    font-size: 1.50rem;
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-    margin-left: 1rem;
-    }
-  
+    &__contacto{
+      color:white ;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      text-align: center;
+      } 
+     }
+   
   .btn{
     width: $ancho/2.5;
     height:$alto/2.5 ;
@@ -130,15 +127,13 @@ p {
   .link{
     height: 11rem;
     margin-left: 1rem;
-
+    &__contacto{
+      font-size: 1.25rem;
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      text-align: center;
+       }
     }
-  
-  .link__contacto{
-    font-size: 1.25rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    text-align: center;
-     }
     
   .btn{
     width: $ancho/3;
@@ -146,7 +141,7 @@ p {
     font-size: 1.25rem;
     padding: 0.25rem;
     border-radius:10rem;
-    margin-left:7.5rem;
+    margin-left:8rem;
     &:hover {  
       transform: scale(1.10);
       padding:0.5rem ;
