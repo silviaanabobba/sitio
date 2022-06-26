@@ -1,11 +1,12 @@
-# ESTUDIO B AIRES
-# Es una sitio creado para una administracion de propiedad horizontal
-# Compuesto de cinco paginas "Inicio, Nosotros, Galeria, Actitus y Contacto" 
-# En cada pagina su busco un diseño dinamico con texto e imagenes en diferentes niveles
-# Se aplico Boostrack en todas todas las paginas
-# Se aplico SEO a todas las paginas
-# Se crearon archivos scss de las paginas, variables, style.scss y sasscript.scss
-# Se uso flex, grids, grids area, grids boostrack, carousel de boostrack y extend
-# Para implementarse se instalaron package.json, package-lock.json y node-modules
+## ESTUDIO BAIRES
+Es una sitio creado para una administracion de propiedad horizontal.
+Esta compuesto de cinco paginas "Inicio, Nosotros, Galeria, Actitud y Contacto". 
+Se aplico SEO a todas las paginas.
+Se aplico Bootstrap y se instalaron los archivos package.json, package-lock.json y node-modules.
+Se crearon los siguientes archivos  de extension scss: style, variables, sasscript, header, footer y uno por cada pagina.
+En el diseño se uso flex, grids, grids area, grids y carousel de bootstrap.
+Se uso transformaciones en el navegador y en el boton de pie de pagina.
+Se aplico extend en la pagina contacto. 
+En todas las paginas su busco un diseño dinamico con texto e imagenes en diferentes niveles.
 
 
